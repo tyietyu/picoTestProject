@@ -74,19 +74,8 @@ CMakeFiles/picoTestProject.dir/main/main.c.obj: \
  D:\Pico\pico-sdk\src\rp2_common\hardware_spi\include/hardware/spi.h \
  D:\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/spi.h \
  D:\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/spi.h \
- D:\Pico\pico-sdk\src\common\pico_time\include/pico/time.h \
- D:\Pico\pico-sdk\src\rp2_common\hardware_timer\include/hardware/timer.h \
- D:\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/timer.h \
- D:\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/timer.h \
- C:\Users\28670\Desktop\picoTestProject\main\rp2040_clock.h \
- D:\Pico\pico-sdk\src\rp2_common\hardware_pll\include/hardware/pll.h \
- D:\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/pll.h \
- D:\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/pll.h \
- D:\Pico\pico-sdk\src\rp2_common\hardware_clocks\include/hardware/clocks.h \
- D:\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/clocks.h \
- D:\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/clocks.h \
- D:\Pico\pico-sdk\lib\tinyusb\hw/bsp/board.h \
- D:\Pico\pico-sdk\lib\tinyusb\hw/bsp/ansi_escape.h \
+ D:\Pico\pico-sdk\src\rp2_common\hardware_flash\include/hardware/flash.h \
+ D:\Pico\pico-sdk\src\rp2_common\hardware_sync\include/hardware/sync.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/tusb.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/common/tusb_common.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/tusb_option.h \
@@ -101,9 +90,12 @@ CMakeFiles/picoTestProject.dir/main/main.c.obj: \
  D:\Pico\pico-sdk\lib\tinyusb\src/osal/osal.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/common/tusb_common.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/osal/osal_pico.h \
+ D:\Pico\pico-sdk\src\common\pico_time\include/pico/time.h \
+ D:\Pico\pico-sdk\src\rp2_common\hardware_timer\include/hardware/timer.h \
+ D:\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/timer.h \
+ D:\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/timer.h \
  D:\Pico\pico-sdk\src\common\pico_sync\include/pico/sem.h \
  D:\Pico\pico-sdk\src\common\pico_sync\include/pico/lock_core.h \
- D:\Pico\pico-sdk\src\rp2_common\hardware_sync\include/hardware/sync.h \
  D:\Pico\pico-sdk\src\common\pico_sync\include/pico/mutex.h \
  D:\Pico\pico-sdk\src\common\pico_sync\include/pico/critical_section.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/common/tusb_fifo.h \
@@ -114,6 +106,15 @@ CMakeFiles/picoTestProject.dir/main/main.c.obj: \
  D:\Pico\pico-sdk\lib\tinyusb\src/class/cdc/cdc_device.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/class/cdc/cdc.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/class/vendor/vendor_device.h \
+ D:\Pico\pico-sdk\lib\tinyusb\hw/bsp/board.h \
+ D:\Pico\pico-sdk\lib\tinyusb\hw/bsp/ansi_escape.h \
+ C:\Users\28670\Desktop\picoTestProject\main\rp2040_clock.h \
+ D:\Pico\pico-sdk\src\rp2_common\hardware_pll\include/hardware/pll.h \
+ D:\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/pll.h \
+ D:\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/pll.h \
+ D:\Pico\pico-sdk\src\rp2_common\hardware_clocks\include/hardware/clocks.h \
+ D:\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/clocks.h \
+ D:\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/clocks.h \
  C:\Users\28670\Desktop\picoTestProject\main\usb_descriptors.h \
  D:\Pico\pico-sdk\src\rp2_common\pico_multicore\include/pico/multicore.h \
  D:\Pico\pico-sdk\src\common\pico_sync\include/pico/sync.h

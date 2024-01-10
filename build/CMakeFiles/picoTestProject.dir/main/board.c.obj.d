@@ -47,4 +47,15 @@ CMakeFiles/picoTestProject.dir/main/board.c.obj: \
  D:\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/m0plus.h \
  D:\Pico\pico-sdk\src\rp2_common\hardware_spi\include/hardware/spi.h \
  D:\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/spi.h \
- D:\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/spi.h
+ D:\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/spi.h \
+ D:\Pico\pico-sdk\src\rp2_common\hardware_flash\include/hardware/flash.h \
+ D:\Pico\pico-sdk\src\rp2_common\hardware_sync\include/hardware/sync.h \
+ c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\string.h \
+ c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\sys\reent.h \
+ c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\_ansi.h \
+ c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\sys\_types.h \
+ c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\machine\_types.h \
+ c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\sys\lock.h \
+ c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\sys\_locale.h \
+ c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\strings.h \
+ c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\sys\string.h
