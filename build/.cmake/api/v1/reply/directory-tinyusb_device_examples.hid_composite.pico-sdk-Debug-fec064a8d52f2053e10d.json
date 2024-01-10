@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tinyusb_device_examples/hid_composite/pico-sdk",
+		"source" : "D:/Pico/pico-sdk"
+	}
+}

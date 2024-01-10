@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tinyusb_device_examples/cdc_dual_ports",
+		"source" : "D:/Pico/pico-sdk/lib/tinyusb/examples/device/cdc_dual_ports"
+	}
+}
