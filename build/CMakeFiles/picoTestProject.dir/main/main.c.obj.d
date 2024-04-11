@@ -1,5 +1,5 @@
 CMakeFiles/picoTestProject.dir/main/main.c.obj: \
- C:\Users\28670\Desktop\picoTestProject\main\main.c \
+ D:\Lc-Work\Pico_Software\picoTestProject\main\main.c \
  c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\stdlib.h \
  c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\machine\ieeefp.h \
  c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\_ansi.h \
@@ -36,7 +36,7 @@ CMakeFiles/picoTestProject.dir/main/main.c.obj: \
  c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\sys\_locale.h \
  c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\strings.h \
  c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\sys\string.h \
- C:\Users\28670\Desktop\picoTestProject\main\board.h \
+ D:\Lc-Work\Pico_Software\picoTestProject\main\board.h \
  D:\Pico\pico-sdk\src\rp2_common\hardware_uart\include/hardware/uart.h \
  D:\Pico\pico-sdk\src\common\pico_base\include/pico.h \
  D:\Pico\pico-sdk\src\common\pico_base\include/pico/types.h \
@@ -46,9 +46,9 @@ CMakeFiles/picoTestProject.dir/main/main.c.obj: \
  c:\users\28670\scoop\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
  c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\stdint.h \
  c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\sys\_intsup.h \
- C:\Users\28670\Desktop\picoTestProject\build\generated\pico_base/pico/version.h \
+ D:\Lc-Work\Pico_Software\picoTestProject\build\generated\pico_base/pico/version.h \
  D:\Pico\pico-sdk\src\common\pico_base\include/pico/config.h \
- C:\Users\28670\Desktop\picoTestProject\build\generated\pico_base/pico/config_autogen.h \
+ D:\Lc-Work\Pico_Software\picoTestProject\build\generated\pico_base/pico/config_autogen.h \
  D:/Pico/pico-sdk/src/boards/include/boards/pico.h \
  D:/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  D:\Pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \
@@ -80,7 +80,7 @@ CMakeFiles/picoTestProject.dir/main/main.c.obj: \
  D:\Pico\pico-sdk\lib\tinyusb\src/common/tusb_common.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/tusb_option.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/common/tusb_compiler.h \
- C:\Users\28670\Desktop\picoTestProject\main/tusb_config.h \
+ D:\Lc-Work\Pico_Software\picoTestProject\main/tusb_config.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/common/tusb_mcu.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/common/tusb_compiler.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/common/tusb_verify.h \
@@ -108,13 +108,13 @@ CMakeFiles/picoTestProject.dir/main/main.c.obj: \
  D:\Pico\pico-sdk\lib\tinyusb\src/class/vendor/vendor_device.h \
  D:\Pico\pico-sdk\lib\tinyusb\hw/bsp/board.h \
  D:\Pico\pico-sdk\lib\tinyusb\hw/bsp/ansi_escape.h \
- C:\Users\28670\Desktop\picoTestProject\main\rp2040_clock.h \
+ D:\Lc-Work\Pico_Software\picoTestProject\main\rp2040_clock.h \
  D:\Pico\pico-sdk\src\rp2_common\hardware_pll\include/hardware/pll.h \
  D:\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/pll.h \
  D:\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/pll.h \
  D:\Pico\pico-sdk\src\rp2_common\hardware_clocks\include/hardware/clocks.h \
  D:\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/clocks.h \
  D:\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/clocks.h \
- C:\Users\28670\Desktop\picoTestProject\main\usb_descriptors.h \
+ D:\Lc-Work\Pico_Software\picoTestProject\main\usb_descriptors.h \
  D:\Pico\pico-sdk\src\rp2_common\pico_multicore\include/pico/multicore.h \
  D:\Pico\pico-sdk\src\common\pico_sync\include/pico/sync.h

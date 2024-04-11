@@ -8,17 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "D:/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "C:/Users/28670/Desktop/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-  "D:/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "C:/Users/28670/Desktop/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-  "D:/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "C:/Users/28670/Desktop/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-  "D:/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S" "C:/Users/28670/Desktop/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-  "D:/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S" "C:/Users/28670/Desktop/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-  "D:/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S" "C:/Users/28670/Desktop/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-  "D:/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S" "C:/Users/28670/Desktop/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-  "D:/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S" "C:/Users/28670/Desktop/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-  "D:/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "C:/Users/28670/Desktop/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-  "D:/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "C:/Users/28670/Desktop/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-  "D:/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "C:/Users/28670/Desktop/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/tinyusb_device_examples/cdc_msc/CMakeFiles/tinyusb_dev_cdc_msc.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 

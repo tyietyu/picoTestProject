@@ -18,9 +18,9 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family
  c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\sys\_intsup.h \
  c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\sys\_stdint.h \
  c:\users\28670\scoop\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
- C:\Users\28670\Desktop\picoTestProject\build\generated\pico_base/pico/version.h \
+ D:\Lc-Work\Pico_Software\picoTestProject\build\generated\pico_base/pico/version.h \
  D:\Pico\pico-sdk\src\common\pico_base\include/pico/config.h \
- C:\Users\28670\Desktop\picoTestProject\build\generated\pico_base/pico/config_autogen.h \
+ D:\Lc-Work\Pico_Software\picoTestProject\build\generated\pico_base/pico/config_autogen.h \
  D:/Pico/pico-sdk/src/boards/include/boards/pico.h \
  D:/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  D:\Pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \
@@ -87,7 +87,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family
  c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\sys\stdio.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/tusb_option.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/common/tusb_compiler.h \
- C:\Users\28670\Desktop\picoTestProject\main/tusb_config.h \
+ D:\Lc-Work\Pico_Software\picoTestProject\main/tusb_config.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/common/tusb_mcu.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/common/tusb_compiler.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/common/tusb_verify.h \

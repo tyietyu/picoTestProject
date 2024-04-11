@@ -1,6 +1,6 @@
 CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.obj: \
- C:\Users\28670\Desktop\picoTestProject\main\rp2040_clock.c \
- C:\Users\28670\Desktop\picoTestProject\main\rp2040_clock.h \
+ D:\Lc-Work\Pico_Software\picoTestProject\main\rp2040_clock.c \
+ D:\Lc-Work\Pico_Software\picoTestProject\main\rp2040_clock.h \
  c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\stdio.h \
  c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\_ansi.h \
  c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\newlib.h \
@@ -39,9 +39,9 @@ CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.obj: \
  c:\users\28670\scoop\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
  c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\stdint.h \
  c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\sys\_intsup.h \
- C:\Users\28670\Desktop\picoTestProject\build\generated\pico_base/pico/version.h \
+ D:\Lc-Work\Pico_Software\picoTestProject\build\generated\pico_base/pico/version.h \
  D:\Pico\pico-sdk\src\common\pico_base\include/pico/config.h \
- C:\Users\28670\Desktop\picoTestProject\build\generated\pico_base/pico/config_autogen.h \
+ D:\Lc-Work\Pico_Software\picoTestProject\build\generated\pico_base/pico/config_autogen.h \
  D:/Pico/pico-sdk/src/boards/include/boards/pico.h \
  D:/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  D:\Pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \

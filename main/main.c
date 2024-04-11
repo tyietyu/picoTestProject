@@ -32,8 +32,9 @@ static uint32_t led0_blink_interval_ms = BLINK_NOT_MOUNTED;
 static uint32_t led1_blink_interval_ms = BLINK_NOT_MOUNTED;
 #define URL "candas1.github.io/Hoverboard-Web-Serial-Control"
 
-/***********************flash擦除测试*******************************/
-
+/******************************************************/
+#define APPLY_DATA 256
+uint8_t databuf[256];
 /**************************************************************/
 
 const tusb_desc_webusb_url_t desc_url =
@@ -61,36 +62,46 @@ void led1_blinking_task(void);
 void web_printf(const char *format, ...);
 void usb_printf(const char *format, ...);
 void uart_printf(const char *format, ...);
-void uart_write_blocking_bytes(const uint8_t *data, size_t length);
+void generate_data(void);
+/************************************************/
+uint8_t rx_buf[256];
+uint8_t tx_byte = 0x01;
+/*************************************************/
 int main()
 {
     board_init();
     rp2040_clock_133Mhz();
     radar_gpio_init();
     radar_uart_init();
+    radar_spi_init();
 
     // init device stack on configured roothub port
     tud_init(BOARD_TUD_RHPORT);
-    gpio_put(LED0_PIN, 0);
-    const uint8_t *flash_memory = (const uint8_t *)(XIP_BASE + FLASH_ADD_OFFSET);
+    // generate_data();
+
     while (1)
     {
         tud_task(); // tinyusb device task
-        for (size_t i = 0; i < FLASH_INSIDE_PROGRAM_SIZE; i++)
-        {
-            tud_task(); // tinyusb device task
-            tud_cdc_write(&flash_memory[i], 1);
-            // uart_write_blocking_bytes(&flash_memory[i], 1);
-        }
         led0_blinking_task();
+        // spi_write_blocking(SPI_PORT, tx_buf, sizeof(tx_buf));
+    spi_read_blocking(SPI_PORT, tx_byte, rx_buf, sizeof(rx_buf));
+        for (int i = 0; i < APPLY_DATA; i++)
+        {
+            uart_printf("%x ", rx_buf[i]);
+        }
+        // 得到寄存器的值
+        // uart_printf("SSPCR0:0x%02x\n", spi_get_hw(SPI_PORT)->cr0);
+        // // 得到寄存器具体的位的值
+        // uart_printf("SSPCR0_FRF: 0x%02x\n", spi_get_hw(SPI_PORT)->cr0 & SPI_SSPCR0_FRF_BITS);
     }
 }
 
-void uart_write_blocking_bytes(const uint8_t *data, size_t length)
+// 写一个函数生成00到FF存储在databuf中,使用静态数组存储
+void generate_data(void)
 {
-    for (size_t i = 0; i < length; i++)
+    for (int i = 0; i < APPLY_DATA; i++)
     {
-        uart_write_blocking(UART_ID, &data[i], 1);
+        databuf[i] = i;
     }
 }
 

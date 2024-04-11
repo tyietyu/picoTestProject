@@ -56,10 +56,10 @@ RM = C:\Users\28670\scoop\apps\cmake\3.27.3\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\28670\Desktop\picoTestProject
+CMAKE_SOURCE_DIR = D:\Lc-Work\Pico_Software\picoTestProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\28670\Desktop\picoTestProject\build
+CMAKE_BINARY_DIR = D:\Lc-Work\Pico_Software\picoTestProject\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\28670\Desktop\picoTestProject\build\CMakeFiles C:\Users\28670\Desktop\picoTestProject\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles D:\Lc-Work\Pico_Software\picoTestProject\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\28670\Desktop\picoTestProject\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -168,19 +168,6 @@ bs2_default_padded_checksummed_asm/fast:
 .PHONY : bs2_default_padded_checksummed_asm/fast
 
 #=============================================================================
-# Target rules for targets named PioasmBuild
-
-# Build rule for target.
-PioasmBuild: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PioasmBuild
-.PHONY : PioasmBuild
-
-# fast build rule for target.
-PioasmBuild/fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/build
-.PHONY : PioasmBuild/fast
-
-#=============================================================================
 # Target rules for targets named cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 
 # Build rule for target.
@@ -205,19 +192,6 @@ tinyusb_dev_audio_4_channel_mic: cmake_check_build_system
 tinyusb_dev_audio_4_channel_mic/fast:
 	$(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/build
 .PHONY : tinyusb_dev_audio_4_channel_mic/fast
-
-#=============================================================================
-# Target rules for targets named ELF2UF2Build
-
-# Build rule for target.
-ELF2UF2Build: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ELF2UF2Build
-.PHONY : ELF2UF2Build
-
-# fast build rule for target.
-ELF2UF2Build/fast:
-	$(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\ELF2UF2Build.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/ELF2UF2Build.dir/build
-.PHONY : ELF2UF2Build/fast
 
 #=============================================================================
 # Target rules for targets named tinyusb_dev_audio_test
@@ -2011,8 +1985,6 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... ELF2UF2Build
-	@echo ... PioasmBuild
 	@echo ... bs2_default_bin
 	@echo ... bs2_default_padded_checksummed_asm
 	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h

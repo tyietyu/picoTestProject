@@ -22,9 +22,9 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_multicore/mu
  D:\Pico\pico-sdk\src\common\pico_sync\include/pico/lock_core.h \
  D:\Pico\pico-sdk\src\common\pico_base\include/pico.h \
  D:\Pico\pico-sdk\src\common\pico_base\include/pico/types.h \
- C:\Users\28670\Desktop\picoTestProject\build\generated\pico_base/pico/version.h \
+ D:\Lc-Work\Pico_Software\picoTestProject\build\generated\pico_base/pico/version.h \
  D:\Pico\pico-sdk\src\common\pico_base\include/pico/config.h \
- C:\Users\28670\Desktop\picoTestProject\build\generated\pico_base/pico/config_autogen.h \
+ D:\Lc-Work\Pico_Software\picoTestProject\build\generated\pico_base/pico/config_autogen.h \
  D:/Pico/pico-sdk/src/boards/include/boards/pico.h \
  D:/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  D:\Pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \

@@ -18,17 +18,19 @@ void radar_uart_init()
     gpio_set_function(UART_RX_PIN, GPIO_FUNC_UART);
 }
 
-void __no_inline_not_in_flash_func(WriteFlashData)(uint8_t *data, size_t size)
+void radar_spi_init()
 {
-    // 擦除扇区
-    uint32_t ints = save_and_disable_interrupts();
-    flash_range_erase(FLASH_ADD_OFFSET, FLASH_PAGE_SIZE);
-    flash_range_program(FLASH_ADD_OFFSET, data, size);
-    restore_interrupts(ints);
-}
-
-void ReadFlashData(uint8_t *data, uint8_t size)
-{
-    const uint8_t *flash_data = (const uint8_t *)(XIP_BASE + FLASH_ADD_OFFSET);
-    memcpy(data, flash_data, size);
+    spi_init(SPI_PORT, SPI_BAUD_RATE);
+    /**********************手动修改spi的模式************************************/
+    // Clear the current FRF field value
+    hw_clear_bits(&spi_get_hw(SPI_PORT)->cr0, SPI_SSPCR0_FRF_BITS);
+    // Set the new FRF field value to National Microwire format (10)
+    hw_set_bits(&spi_get_hw(SPI_PORT)->cr0, (2 << SPI_SSPCR0_FRF_LSB));
+    /**********************************************************/
+    spi_set_slave(SPI_PORT, true);
+    spi_set_format(SPI_PORT, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
+    gpio_set_function(SPI_RX_PIN, GPIO_FUNC_SPI);
+    gpio_set_function(SPI_TX_PIN, GPIO_FUNC_SPI);
+    gpio_set_function(SPI_SCK_PIN, GPIO_FUNC_SPI);
+    gpio_set_function(SPI_CSN_PIN, GPIO_FUNC_SPI);
 }

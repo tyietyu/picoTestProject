@@ -56,10 +56,10 @@ RM = C:\Users\28670\scoop\apps\cmake\3.27.3\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\28670\Desktop\picoTestProject
+CMAKE_SOURCE_DIR = D:\Lc-Work\Pico_Software\picoTestProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\28670\Desktop\picoTestProject\build
+CMAKE_BINARY_DIR = D:\Lc-Work\Pico_Software\picoTestProject\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\28670\Desktop\picoTestProject\build\CMakeFiles C:\Users\28670\Desktop\picoTestProject\build\tinyusb_device_examples\audio_4_channel_mic\\CMakeFiles\progress.marks
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tinyusb_device_examples/audio_4_channel_mic/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\28670\Desktop\picoTestProject\build\CMakeFiles 0
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles D:\Lc-Work\Pico_Software\picoTestProject\build\tinyusb_device_examples\audio_4_channel_mic\\CMakeFiles\progress.marks
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tinyusb_device_examples/audio_4_channel_mic/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tinyusb_device_examples/audio_4_channel_mic/clean
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tinyusb_device_examples/audio_4_channel_mic/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tinyusb_device_examples/audio_4_channel_mic/preinstall
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tinyusb_device_examples/audio_4_channel_mic/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tinyusb_device_examples/audio_4_channel_mic/preinstall
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tinyusb_device_examples/audio_4_channel_mic/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/rule:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/rule
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/rule
 .PHONY : tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/rule
 
 # Convenience name for target.
@@ -126,29 +126,15 @@ tinyusb_dev_audio_4_channel_mic: tinyusb_device_examples/audio_4_channel_mic/CMa
 
 # fast build rule for target.
 tinyusb_dev_audio_4_channel_mic/fast:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/build
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/build
 .PHONY : tinyusb_dev_audio_4_channel_mic/fast
-
-# Convenience name for target.
-tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/ELF2UF2Build.dir/rule:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/ELF2UF2Build.dir/rule
-.PHONY : tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/ELF2UF2Build.dir/rule
-
-# Convenience name for target.
-ELF2UF2Build: tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/ELF2UF2Build.dir/rule
-.PHONY : ELF2UF2Build
-
-# fast build rule for target.
-ELF2UF2Build/fast:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\ELF2UF2Build.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/ELF2UF2Build.dir/build
-.PHONY : ELF2UF2Build/fast
 
 D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.obj: D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.obj
 
 # target to build an object file
 D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
 
 D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.i: D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
@@ -156,7 +142,7 @@ D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.i: D_/Pico/pico-sdk/lib/tinyus
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
 
 D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.s: D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
@@ -164,7 +150,7 @@ D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.s: D_/Pico/pico-sdk/lib/tinyus
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
@@ -172,7 +158,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: D_/Pico/pico-sdk/
 
 # target to build an object file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
@@ -180,7 +166,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: D_/Pico/pico-sdk/li
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
@@ -188,7 +174,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: D_/Pico/pico-sdk/li
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
@@ -196,7 +182,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: D_/Pico/pico-sdk/lib/
 
 # target to build an object file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
@@ -204,7 +190,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: D_/Pico/pico-sdk/lib/ti
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
@@ -212,7 +198,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: D_/Pico/pico-sdk/lib/ti
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
@@ -220,7 +206,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: D_/Pico/pico-sdk/lib/
 
 # target to build an object file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
@@ -228,7 +214,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: D_/Pico/pico-sdk/lib/ti
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
@@ -236,7 +222,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: D_/Pico/pico-sdk/lib/ti
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
@@ -244,7 +230,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: D_/Pico/pico-sdk/l
 
 # target to build an object file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
@@ -252,7 +238,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: D_/Pico/pico-sdk/lib
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
@@ -260,7 +246,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: D_/Pico/pico-sdk/lib
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
@@ -268,7 +254,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: D_/Pico/pico-sdk/lib/
 
 # target to build an object file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
@@ -276,7 +262,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: D_/Pico/pico-sdk/lib/ti
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
@@ -284,7 +270,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: D_/Pico/pico-sdk/lib/ti
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
@@ -292,7 +278,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: D_/Pico/pico-sdk/li
 
 # target to build an object file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
@@ -300,7 +286,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: D_/Pico/pico-sdk/lib/
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
@@ -308,7 +294,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: D_/Pico/pico-sdk/lib/
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
@@ -316,7 +302,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: D_/Pico/pico-sdk/lib/
 
 # target to build an object file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
@@ -324,7 +310,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: D_/Pico/pico-sdk/lib/ti
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
@@ -332,7 +318,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: D_/Pico/pico-sdk/lib/ti
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
@@ -340,7 +326,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: D_/Pico/pico-sd
 
 # target to build an object file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
@@ -348,7 +334,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: D_/Pico/pico-sdk/
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
@@ -356,7 +342,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: D_/Pico/pico-sdk/
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
@@ -364,7 +350,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: D_/Pico/pico-sdk/lib/
 
 # target to build an object file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
@@ -372,7 +358,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: D_/Pico/pico-sdk/lib/ti
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
@@ -380,7 +366,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: D_/Pico/pico-sdk/lib/ti
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
@@ -388,7 +374,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: D_/Pico/pico-sd
 
 # target to build an object file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
@@ -396,7 +382,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: D_/Pico/pico-sdk/
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
@@ -404,7 +390,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: D_/Pico/pico-sdk/
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
@@ -412,7 +398,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: D_/Pico/pico-sd
 
 # target to build an object file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
@@ -420,7 +406,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: D_/Pico/pico-sdk/
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
@@ -428,7 +414,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: D_/Pico/pico-sdk/
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
@@ -436,7 +422,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: D_/Pico/pico-sdk/
 
 # target to build an object file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
@@ -444,7 +430,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: D_/Pico/pico-sdk/li
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
 D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s: D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
@@ -452,7 +438,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s: D_/Pico/pico-sdk/li
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
 D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
@@ -460,7 +446,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: D_/Pico/pico-sdk/lib/tiny
 
 # target to build an object file
 D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
@@ -468,7 +454,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: D_/Pico/pico-sdk/lib/tinyus
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
 D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
@@ -476,7 +462,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: D_/Pico/pico-sdk/lib/tinyus
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
 D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
@@ -484,7 +470,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: D_/Pico/pico-sdk/lib/tinyusb/s
 
 # target to build an object file
 D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 
 D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.i: D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
@@ -492,7 +478,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.i: D_/Pico/pico-sdk/lib/tinyusb/src
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
 D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.s: D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
@@ -500,7 +486,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.s: D_/Pico/pico-sdk/lib/tinyusb/src
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
 D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
@@ -508,7 +494,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: D_/Pico/pico-sdk/lib/t
 
 # target to build an object file
 D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 
 D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
@@ -516,7 +502,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: D_/Pico/pico-sdk/lib/tin
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
 D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
@@ -524,7 +510,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: D_/Pico/pico-sdk/lib/tin
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
 D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
@@ -532,7 +518,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: D_/
 
 # target to build an object file
 D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 
 D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
@@ -540,7 +526,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: D_/Pi
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
 D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
@@ -548,7 +534,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: D_/Pi
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
 D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
@@ -556,7 +542,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: D_/
 
 # target to build an object file
 D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 
 D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
@@ -564,7 +550,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: D_/Pi
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
 D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
@@ -572,7 +558,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: D_/Pi
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
 D_/Pico/pico-sdk/lib/tinyusb/src/tusb.obj: D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
@@ -580,7 +566,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/tusb.obj: D_/Pico/pico-sdk/lib/tinyusb/src/tusb
 
 # target to build an object file
 D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 
 D_/Pico/pico-sdk/lib/tinyusb/src/tusb.i: D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i
@@ -588,7 +574,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/tusb.i: D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 
 D_/Pico/pico-sdk/lib/tinyusb/src/tusb.s: D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s
@@ -596,7 +582,7 @@ D_/Pico/pico-sdk/lib/tinyusb/src/tusb.s: D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
 D_/Pico/pico-sdk/src/common/pico_sync/critical_section.obj: D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
@@ -604,7 +590,7 @@ D_/Pico/pico-sdk/src/common/pico_sync/critical_section.obj: D_/Pico/pico-sdk/src
 
 # target to build an object file
 D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 D_/Pico/pico-sdk/src/common/pico_sync/critical_section.i: D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -612,7 +598,7 @@ D_/Pico/pico-sdk/src/common/pico_sync/critical_section.i: D_/Pico/pico-sdk/src/c
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 D_/Pico/pico-sdk/src/common/pico_sync/critical_section.s: D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -620,7 +606,7 @@ D_/Pico/pico-sdk/src/common/pico_sync/critical_section.s: D_/Pico/pico-sdk/src/c
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 D_/Pico/pico-sdk/src/common/pico_sync/lock_core.obj: D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -628,7 +614,7 @@ D_/Pico/pico-sdk/src/common/pico_sync/lock_core.obj: D_/Pico/pico-sdk/src/common
 
 # target to build an object file
 D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 D_/Pico/pico-sdk/src/common/pico_sync/lock_core.i: D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -636,7 +622,7 @@ D_/Pico/pico-sdk/src/common/pico_sync/lock_core.i: D_/Pico/pico-sdk/src/common/p
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 D_/Pico/pico-sdk/src/common/pico_sync/lock_core.s: D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -644,7 +630,7 @@ D_/Pico/pico-sdk/src/common/pico_sync/lock_core.s: D_/Pico/pico-sdk/src/common/p
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 D_/Pico/pico-sdk/src/common/pico_sync/mutex.obj: D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -652,7 +638,7 @@ D_/Pico/pico-sdk/src/common/pico_sync/mutex.obj: D_/Pico/pico-sdk/src/common/pic
 
 # target to build an object file
 D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 D_/Pico/pico-sdk/src/common/pico_sync/mutex.i: D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -660,7 +646,7 @@ D_/Pico/pico-sdk/src/common/pico_sync/mutex.i: D_/Pico/pico-sdk/src/common/pico_
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 D_/Pico/pico-sdk/src/common/pico_sync/mutex.s: D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -668,7 +654,7 @@ D_/Pico/pico-sdk/src/common/pico_sync/mutex.s: D_/Pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 D_/Pico/pico-sdk/src/common/pico_sync/sem.obj: D_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -676,7 +662,7 @@ D_/Pico/pico-sdk/src/common/pico_sync/sem.obj: D_/Pico/pico-sdk/src/common/pico_
 
 # target to build an object file
 D_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : D_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
 D_/Pico/pico-sdk/src/common/pico_sync/sem.i: D_/Pico/pico-sdk/src/common/pico_sync/sem.c.i
@@ -684,7 +670,7 @@ D_/Pico/pico-sdk/src/common/pico_sync/sem.i: D_/Pico/pico-sdk/src/common/pico_sy
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : D_/Pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 D_/Pico/pico-sdk/src/common/pico_sync/sem.s: D_/Pico/pico-sdk/src/common/pico_sync/sem.c.s
@@ -692,7 +678,7 @@ D_/Pico/pico-sdk/src/common/pico_sync/sem.s: D_/Pico/pico-sdk/src/common/pico_sy
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : D_/Pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 D_/Pico/pico-sdk/src/common/pico_time/time.obj: D_/Pico/pico-sdk/src/common/pico_time/time.c.obj
@@ -700,7 +686,7 @@ D_/Pico/pico-sdk/src/common/pico_time/time.obj: D_/Pico/pico-sdk/src/common/pico
 
 # target to build an object file
 D_/Pico/pico-sdk/src/common/pico_time/time.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : D_/Pico/pico-sdk/src/common/pico_time/time.c.obj
 
 D_/Pico/pico-sdk/src/common/pico_time/time.i: D_/Pico/pico-sdk/src/common/pico_time/time.c.i
@@ -708,7 +694,7 @@ D_/Pico/pico-sdk/src/common/pico_time/time.i: D_/Pico/pico-sdk/src/common/pico_t
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/common/pico_time/time.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : D_/Pico/pico-sdk/src/common/pico_time/time.c.i
 
 D_/Pico/pico-sdk/src/common/pico_time/time.s: D_/Pico/pico-sdk/src/common/pico_time/time.c.s
@@ -716,7 +702,7 @@ D_/Pico/pico-sdk/src/common/pico_time/time.s: D_/Pico/pico-sdk/src/common/pico_t
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/common/pico_time/time.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : D_/Pico/pico-sdk/src/common/pico_time/time.c.s
 
 D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.obj: D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -724,7 +710,7 @@ D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.obj: D_/Pico/pico-sdk/src/c
 
 # target to build an object file
 D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.i: D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -732,7 +718,7 @@ D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.i: D_/Pico/pico-sdk/src/com
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.s: D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -740,7 +726,7 @@ D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.s: D_/Pico/pico-sdk/src/com
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 D_/Pico/pico-sdk/src/common/pico_util/datetime.obj: D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -748,7 +734,7 @@ D_/Pico/pico-sdk/src/common/pico_util/datetime.obj: D_/Pico/pico-sdk/src/common/
 
 # target to build an object file
 D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
 D_/Pico/pico-sdk/src/common/pico_util/datetime.i: D_/Pico/pico-sdk/src/common/pico_util/datetime.c.i
@@ -756,7 +742,7 @@ D_/Pico/pico-sdk/src/common/pico_util/datetime.i: D_/Pico/pico-sdk/src/common/pi
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : D_/Pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 D_/Pico/pico-sdk/src/common/pico_util/datetime.s: D_/Pico/pico-sdk/src/common/pico_util/datetime.c.s
@@ -764,7 +750,7 @@ D_/Pico/pico-sdk/src/common/pico_util/datetime.s: D_/Pico/pico-sdk/src/common/pi
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : D_/Pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 D_/Pico/pico-sdk/src/common/pico_util/pheap.obj: D_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -772,7 +758,7 @@ D_/Pico/pico-sdk/src/common/pico_util/pheap.obj: D_/Pico/pico-sdk/src/common/pic
 
 # target to build an object file
 D_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : D_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
 D_/Pico/pico-sdk/src/common/pico_util/pheap.i: D_/Pico/pico-sdk/src/common/pico_util/pheap.c.i
@@ -780,7 +766,7 @@ D_/Pico/pico-sdk/src/common/pico_util/pheap.i: D_/Pico/pico-sdk/src/common/pico_
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : D_/Pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 D_/Pico/pico-sdk/src/common/pico_util/pheap.s: D_/Pico/pico-sdk/src/common/pico_util/pheap.c.s
@@ -788,7 +774,7 @@ D_/Pico/pico-sdk/src/common/pico_util/pheap.s: D_/Pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : D_/Pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 D_/Pico/pico-sdk/src/common/pico_util/queue.obj: D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj
@@ -796,7 +782,7 @@ D_/Pico/pico-sdk/src/common/pico_util/queue.obj: D_/Pico/pico-sdk/src/common/pic
 
 # target to build an object file
 D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj
 
 D_/Pico/pico-sdk/src/common/pico_util/queue.i: D_/Pico/pico-sdk/src/common/pico_util/queue.c.i
@@ -804,7 +790,7 @@ D_/Pico/pico-sdk/src/common/pico_util/queue.i: D_/Pico/pico-sdk/src/common/pico_
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/common/pico_util/queue.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : D_/Pico/pico-sdk/src/common/pico_util/queue.c.i
 
 D_/Pico/pico-sdk/src/common/pico_util/queue.s: D_/Pico/pico-sdk/src/common/pico_util/queue.c.s
@@ -812,7 +798,7 @@ D_/Pico/pico-sdk/src/common/pico_util/queue.s: D_/Pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/common/pico_util/queue.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : D_/Pico/pico-sdk/src/common/pico_util/queue.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -820,7 +806,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: D_/Pico/pico-sdk/src/r
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
@@ -828,7 +814,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: D_/Pico/pico-sdk/src/rp2
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -836,7 +822,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: D_/Pico/pico-sdk/src/rp2
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -844,7 +830,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: D_/Pico/pico-sdk/src
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -852,7 +838,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: D_/Pico/pico-sdk/src/r
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -860,7 +846,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: D_/Pico/pico-sdk/src/r
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -868,7 +854,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: D_/Pico/pico-sdk/s
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -876,7 +862,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: D_/Pico/pico-sdk/src/rp2
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -884,7 +870,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: D_/Pico/pico-sdk/src/rp2_c
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -892,7 +878,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: D_/Pico/pico-sdk/src/rp2_c
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
@@ -900,7 +886,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: D_/Pico/pico-sdk/src/rp2_c
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -908,7 +894,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: D_/Pico/pico-sdk/src/rp2_com
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -916,7 +902,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: D_/Pico/pico-sdk/src/rp2_com
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -924,7 +910,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: D_/Pico/pico
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
@@ -932,7 +918,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: D_/Pico/pico-sdk/src/rp2_c
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -940,7 +926,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: D_/Pico/pico-sdk/src/rp2_com
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -948,7 +934,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: D_/Pico/pico-sdk/src/rp2_com
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -956,7 +942,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: D_/Pico/pico-sdk/src/rp2
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -964,7 +950,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: D_/Pico/pico-sdk/src/rp2_c
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -972,7 +958,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: D_/Pico/pico-sdk/src/rp2_c
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -980,7 +966,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: D_/Pico/pico-sdk/src/r
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -988,7 +974,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: D_/Pico/pico-sdk/src/rp2
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -996,7 +982,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: D_/Pico/pico-sdk/src/rp2
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -1004,7 +990,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: D_/Pico/pico-sdk/src/rp2
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -1012,7 +998,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: D_/Pico/pico-sdk/src/rp2_c
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -1020,7 +1006,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: D_/Pico/pico-sdk/src/rp2_c
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -1028,7 +1014,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: D_/Pico/pico-sdk/src/rp2
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -1036,7 +1022,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: D_/Pico/pico-sdk/src/rp2_c
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -1044,7 +1030,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: D_/Pico/pico-sdk/src/rp2_c
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -1052,7 +1038,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: D_/Pico/pico-sdk
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -1060,7 +1046,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: D_/Pico/pico-sdk/s
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -1068,7 +1054,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: D_/Pico/pico-sdk/s
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -1076,7 +1062,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: D_/Pico/pico-sdk/src/rp2
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -1084,7 +1070,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: D_/Pico/pico-sdk/src/rp2_c
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -1092,7 +1078,7 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: D_/Pico/pico-sdk/src/rp2_c
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -1100,7 +1086,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: D_/Pico/pico-sdk
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -1108,7 +1094,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: D_/Pico/pico-sdk/src/r
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -1116,7 +1102,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: D_/Pico/pico-sdk/src/rp2
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -1124,7 +1110,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: D_/Pico/pico-sdk/src/rp2
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.obj: D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.obj
@@ -1132,7 +1118,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_d
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.i: D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.i
@@ -1140,7 +1126,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_d
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.s: D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.s
@@ -1148,7 +1134,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_d
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
@@ -1156,7 +1142,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: D_/Pico/pico-sdk/src/r
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -1164,7 +1150,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: D_/Pico/pico-sdk/s
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -1172,7 +1158,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: D_/Pico/pico-sd
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
@@ -1180,7 +1166,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: D_/Pico/pico-sdk/
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -1188,7 +1174,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: D_/Pico/pico-sdk/
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -1196,7 +1182,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: D_/Pico/pico-sdk/sr
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.i: D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -1204,7 +1190,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.i: D_/Pico/pico-sdk/src/
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.s: D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -1212,7 +1198,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.s: D_/Pico/pico-sdk/src/
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -1220,7 +1206,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: D_/Pico/pico
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
@@ -1228,7 +1214,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_us
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
@@ -1236,7 +1222,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_us
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
@@ -1244,7 +1230,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_us
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -1252,7 +1238,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: D_/Pico/pico-sdk/src
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
@@ -1260,7 +1246,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: D_/Pico/pico-sdk/
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
@@ -1268,7 +1254,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: D_/Pico/pico-sdk/sr
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -1276,7 +1262,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: D_/Pico/pico-sdk/sr
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -1284,7 +1270,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: D_/Pico/pico-sdk/src/
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.i: D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -1292,7 +1278,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.i: D_/Pico/pico-sdk/src/rp
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.s: D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -1300,7 +1286,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.s: D_/Pico/pico-sdk/src/rp
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
@@ -1308,7 +1294,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: D_/Pico/pico-s
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -1316,7 +1302,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: D_/Pico
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -1324,7 +1310,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: D_/Pico/pico-sdk/sr
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
@@ -1332,7 +1318,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: D_/Pico/pico-sdk/src/
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -1340,7 +1326,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: D_/Pico/pico-sdk/src/
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -1348,7 +1334,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: D_/Pico/pico-sdk
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -1356,7 +1342,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: D_/Pico/pico-sdk/src
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.i: D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
@@ -1364,7 +1350,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.i: D_/Pico/pico-sdk/src/r
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.s: D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -1372,7 +1358,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.s: D_/Pico/pico-sdk/src/r
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -1380,7 +1366,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: D_/Pico/pico-sdk/src/rp2
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.i: D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -1388,7 +1374,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.i: D_/Pico/pico-sdk/src/rp2_c
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.s: D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -1396,7 +1382,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.s: D_/Pico/pico-sdk/src/rp2_c
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -1404,7 +1390,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: D_/Pico/pico-sdk/src/r
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1412,7 +1398,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: D_/Pico/pico-sdk/src/rp2
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1420,7 +1406,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: D_/Pico/pico-sdk/src/rp2
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -1428,7 +1414,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: D_/Pico/pico
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
@@ -1436,7 +1422,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: D_/Pico/pico-s
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -1444,7 +1430,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: D_/Pico/pico-s
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1452,7 +1438,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: D_/Pico/pico-sdk/sr
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
@@ -1460,7 +1446,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: D_/Pico/pico-
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
@@ -1468,7 +1454,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: D_/Pico/pico-sd
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -1476,7 +1462,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: D_/Pico/pico-sd
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -1484,7 +1470,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: D_/Pico/pico-sdk/src/rp2_c
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1492,7 +1478,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: D_/Pico/pico-sdk/src/rp2_com
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1500,7 +1486,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: D_/Pico/pico-sdk/src/rp2_com
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
@@ -1508,7 +1494,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: D_/Pico/pico-sdk
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
@@ -1516,7 +1502,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: D_/Pico/pico-sdk/s
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
@@ -1524,7 +1510,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: D_/Pico/pico-sdk/s
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1532,7 +1518,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: D_/Pico/pico-sdk/src/rp2
 
 # target to build an object file
 D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1540,7 +1526,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: D_/Pico/pico-sdk/src/rp2_c
 
 # target to preprocess a source file
 D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1548,7 +1534,7 @@ D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: D_/Pico/pico-sdk/src/rp2_c
 
 # target to generate assembly for a file
 D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 src/main.obj: src/main.c.obj
@@ -1556,7 +1542,7 @@ src/main.obj: src/main.c.obj
 
 # target to build an object file
 src/main.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/src/main.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/src/main.c.obj
 .PHONY : src/main.c.obj
 
 src/main.i: src/main.c.i
@@ -1564,7 +1550,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/src/main.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -1572,7 +1558,7 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/src/main.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/src/main.c.s
 .PHONY : src/main.c.s
 
 src/usb_descriptors.obj: src/usb_descriptors.c.obj
@@ -1580,7 +1566,7 @@ src/usb_descriptors.obj: src/usb_descriptors.c.obj
 
 # target to build an object file
 src/usb_descriptors.c.obj:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/src/usb_descriptors.c.obj
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/src/usb_descriptors.c.obj
 .PHONY : src/usb_descriptors.c.obj
 
 src/usb_descriptors.i: src/usb_descriptors.c.i
@@ -1588,7 +1574,7 @@ src/usb_descriptors.i: src/usb_descriptors.c.i
 
 # target to preprocess a source file
 src/usb_descriptors.c.i:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/src/usb_descriptors.c.i
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/src/usb_descriptors.c.i
 .PHONY : src/usb_descriptors.c.i
 
 src/usb_descriptors.s: src/usb_descriptors.c.s
@@ -1596,7 +1582,7 @@ src/usb_descriptors.s: src/usb_descriptors.c.s
 
 # target to generate assembly for a file
 src/usb_descriptors.c.s:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/src/usb_descriptors.c.s
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/src/usb_descriptors.c.s
 .PHONY : src/usb_descriptors.c.s
 
 # Help Target
@@ -1607,7 +1593,6 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... ELF2UF2Build
 	@echo ... tinyusb_dev_audio_4_channel_mic
 	@echo ... D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.obj
 	@echo ... D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.i
@@ -1802,6 +1787,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\28670\Desktop\picoTestProject\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

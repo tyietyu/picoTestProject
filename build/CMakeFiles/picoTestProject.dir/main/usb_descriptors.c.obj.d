@@ -1,5 +1,5 @@
 CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.obj: \
- C:\Users\28670\Desktop\picoTestProject\main\usb_descriptors.c \
+ D:\Lc-Work\Pico_Software\picoTestProject\main\usb_descriptors.c \
  D:\Pico\pico-sdk\lib\tinyusb\src/tusb.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/common/tusb_common.h \
  c:\users\28670\scoop\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h \
@@ -41,7 +41,7 @@ CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.obj: \
  c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\sys\stdio.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/tusb_option.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/common/tusb_compiler.h \
- C:\Users\28670\Desktop\picoTestProject\main/tusb_config.h \
+ D:\Lc-Work\Pico_Software\picoTestProject\main/tusb_config.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/common/tusb_mcu.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/common/tusb_compiler.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/common/tusb_verify.h \
@@ -56,9 +56,9 @@ CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.obj: \
  D:\Pico\pico-sdk\src\common\pico_base\include/pico/types.h \
  D:\Pico\pico-sdk\src\common\pico_base\include/pico/assert.h \
  c:\users\28670\scoop\102021~1.10\arm-none-eabi\include\assert.h \
- C:\Users\28670\Desktop\picoTestProject\build\generated\pico_base/pico/version.h \
+ D:\Lc-Work\Pico_Software\picoTestProject\build\generated\pico_base/pico/version.h \
  D:\Pico\pico-sdk\src\common\pico_base\include/pico/config.h \
- C:\Users\28670\Desktop\picoTestProject\build\generated\pico_base/pico/config_autogen.h \
+ D:\Lc-Work\Pico_Software\picoTestProject\build\generated\pico_base/pico/config_autogen.h \
  D:/Pico/pico-sdk/src/boards/include/boards/pico.h \
  D:/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  D:\Pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \
@@ -84,4 +84,4 @@ CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.obj: \
  D:\Pico\pico-sdk\lib\tinyusb\src/class/cdc/cdc_device.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/class/cdc/cdc.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/class/vendor/vendor_device.h \
- C:\Users\28670\Desktop\picoTestProject\main\usb_descriptors.h
+ D:\Lc-Work\Pico_Software\picoTestProject\main\usb_descriptors.h

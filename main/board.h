@@ -17,11 +17,14 @@
 #define UART_RX_PIN 17
 #define UART_TX_PIN 16
 
-#define FLASH_INSIDE_PROGRAM_SIZE (16 * 1024 * 1024)
-#define FLASH_ADD_OFFSET (FLASH_INSIDE_PROGRAM_SIZE - FLASH_SECTOR_SIZE) // 基地址的偏移量 表示从此偏移量后开始储存数据
+#define SPI_PORT spi0
+#define SPI_BAUD_RATE 25000000
+#define SPI_RX_PIN 0
+#define SPI_CSN_PIN 1
+#define SPI_SCK_PIN 2
+#define SPI_TX_PIN 3
 
-void ReadFlashData(uint8_t *data, uint8_t size);
-void __no_inline_not_in_flash_func(WriteFlashData)(uint8_t *data, size_t size);
 
 void radar_gpio_init();
 void radar_uart_init();
+void radar_spi_init();

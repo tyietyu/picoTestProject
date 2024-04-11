@@ -13,7 +13,8 @@
     "cortex-debug.openocdPath": "${config:OpenOcdPath}/src/openocd.exe",
     "files.associations": {
         "rp2040_clock.h": "c",
-        "time.h": "c"
+        "time.h": "c",
+        "irq.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

@@ -8,17 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "D:/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "C:/Users/28670/Desktop/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-  "D:/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "C:/Users/28670/Desktop/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-  "D:/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "C:/Users/28670/Desktop/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-  "D:/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S" "C:/Users/28670/Desktop/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-  "D:/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S" "C:/Users/28670/Desktop/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-  "D:/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S" "C:/Users/28670/Desktop/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-  "D:/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S" "C:/Users/28670/Desktop/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-  "D:/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S" "C:/Users/28670/Desktop/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-  "D:/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "C:/Users/28670/Desktop/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-  "D:/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "C:/Users/28670/Desktop/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-  "D:/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "C:/Users/28670/Desktop/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "D:/Lc-Work/Pico_Software/picoTestProject/build/CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -73,7 +73,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "C:/Users/28670/Desktop/picoTestProject/main"
+  "D:/Lc-Work/Pico_Software/picoTestProject/main"
   "D:/Pico/pico-sdk/src/common/pico_time/include"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_timer/include"
   "D:/Pico/pico-sdk/src/common/pico_base/include"
@@ -181,10 +181,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "D:/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "D:/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
-  "C:/Users/28670/Desktop/picoTestProject/main/board.c" "CMakeFiles/picoTestProject.dir/main/board.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/main/board.c.obj.d"
-  "C:/Users/28670/Desktop/picoTestProject/main/main.c" "CMakeFiles/picoTestProject.dir/main/main.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/main/main.c.obj.d"
-  "C:/Users/28670/Desktop/picoTestProject/main/rp2040_clock.c" "CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.obj.d"
-  "C:/Users/28670/Desktop/picoTestProject/main/usb_descriptors.c" "CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.obj.d"
+  "D:/Lc-Work/Pico_Software/picoTestProject/main/board.c" "CMakeFiles/picoTestProject.dir/main/board.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/main/board.c.obj.d"
+  "D:/Lc-Work/Pico_Software/picoTestProject/main/main.c" "CMakeFiles/picoTestProject.dir/main/main.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/main/main.c.obj.d"
+  "D:/Lc-Work/Pico_Software/picoTestProject/main/rp2040_clock.c" "CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.obj.d"
+  "D:/Lc-Work/Pico_Software/picoTestProject/main/usb_descriptors.c" "CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.obj.d"
   "D:/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 
