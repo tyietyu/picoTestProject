@@ -4,6 +4,7 @@
 #include "hardware/flash.h"
 #include "hardware/sync.h"
 #include "hardware/irq.h"
+#include "hardware/pio.h"
 
 #define TIMER_INDEX 0
 #define TIMER_INTERVAL_MS 20000 // 10s

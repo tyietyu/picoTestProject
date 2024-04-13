@@ -11,6 +11,8 @@ add_subdirectory(${PICO_TINYUSB_PATH}/examples/device tinyusb_device_examples)
 
 aux_source_directory(./main SOURCES)
 add_executable(picoTestProject ${SOURCES})
+#  init pio
+pico_generate_pio_header(picoTestProject ${CMAKE_CURRENT_LIST_DIR}/main/spi_slave.pio)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/main)
 
@@ -30,6 +32,7 @@ target_link_libraries(picoTestProject
                     hardware_resets 
                     hardware_irq 
                     hardware_flash
+                    hardware_pio
                     pico_stdlib 
                     pico_unique_id 
                     tinyusb_device 

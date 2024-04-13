@@ -78,21 +78,18 @@ int main()
     // init device stack on configured roothub port
     tud_init(BOARD_TUD_RHPORT);
     // generate_data();
+    PIO pio = pio0;
+    uint sm = 0;
+    spi_slave_init(pio, sm, SPI_RX_PIN);
 
     while (1)
     {
         tud_task(); // tinyusb device task
         led0_blinking_task();
-        // spi_write_blocking(SPI_PORT, tx_buf, sizeof(tx_buf));
-    spi_read_blocking(SPI_PORT, tx_byte, rx_buf, sizeof(rx_buf));
-        for (int i = 0; i < APPLY_DATA; i++)
-        {
-            uart_printf("%x ", rx_buf[i]);
-        }
-        // 得到寄存器的值
-        // uart_printf("SSPCR0:0x%02x\n", spi_get_hw(SPI_PORT)->cr0);
-        // // 得到寄存器具体的位的值
-        // uart_printf("SSPCR0_FRF: 0x%02x\n", spi_get_hw(SPI_PORT)->cr0 & SPI_SSPCR0_FRF_BITS);
+        // 接收一个字节
+        uint8_t received_byte = spi_slave_receive_byte(pio, sm);
+        // 将收到的数据输出到控制台
+        uart_printf("Received: 0x%x\n", received_byte);
     }
 }
 
