@@ -1301,6 +1301,61 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/c
   C:/Users/28670/scoop/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   C:/Users/28670/scoop/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
 
+CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: D:/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c \
+  D:/Pico/pico-sdk/src/boards/include/boards/pico.h \
+  D:/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  D:/Pico/pico-sdk/src/common/pico_base/include/pico.h \
+  D:/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  D:/Pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  D:/Pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  D:/Pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_claim/include/hardware/claim.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  D:/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/assert.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/machine/_endian.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/machine/endian.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/machine/types.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/newlib.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/stdio.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/_sigset.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/_timespec.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/_timeval.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/config.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/sched.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/select.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/stdio.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/timespec.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/types.h \
+  C:/Users/28670/scoop/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  C:/Users/28670/scoop/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  C:/Users/28670/scoop/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  C:/Users/28670/scoop/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
+
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: D:/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c \
   D:/Pico/pico-sdk/src/boards/include/boards/pico.h \
   D:/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
@@ -1406,6 +1461,54 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.
   D:/Pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
   D:/Pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
   D:/Pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  D:/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/assert.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/newlib.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/config.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  C:/Users/28670/scoop/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  C:/Users/28670/scoop/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  C:/Users/28670/scoop/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
+
+CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: D:/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c \
+  D:/Pico/pico-sdk/src/boards/include/boards/pico.h \
+  D:/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  D:/Pico/pico-sdk/src/common/pico_base/include/pico.h \
+  D:/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  D:/Pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  D:/Pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  D:/Pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pio.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pio.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_claim/include/hardware/claim.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
   D:/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
@@ -2530,9 +2633,11 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_unique_id/un
 CMakeFiles/picoTestProject.dir/main/board.c.obj: D:/Lc-Work/Pico_Software/picoTestProject/main/board.c \
   D:/Pico/pico-sdk/src/boards/include/boards/pico.h \
   D:/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  spi_slave.pio.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
   D:/Lc-Work/Pico_Software/picoTestProject/main/board.h \
+  D:/Lc-Work/Pico_Software/picoTestProject/main/pio_spi.h \
   D:/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   D:/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
   D:/Pico/pico-sdk/src/common/pico_base/include/pico/config.h \
@@ -2540,24 +2645,31 @@ CMakeFiles/picoTestProject.dir/main/board.c.obj: D:/Lc-Work/Pico_Software/picoTe
   D:/Pico/pico-sdk/src/common/pico_base/include/pico/types.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pio.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pio.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
   D:/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
   D:/Pico/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
   D:/Pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
   D:/Pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
   D:/Pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
   D:/Pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
   D:/Pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
@@ -2589,10 +2701,12 @@ CMakeFiles/picoTestProject.dir/main/board.c.obj: D:/Lc-Work/Pico_Software/picoTe
 CMakeFiles/picoTestProject.dir/main/main.c.obj: D:/Lc-Work/Pico_Software/picoTestProject/main/main.c \
   D:/Pico/pico-sdk/src/boards/include/boards/pico.h \
   D:/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  spi_slave.pio.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
   D:/Lc-Work/Pico_Software/picoTestProject/main/tusb_config.h \
   D:/Lc-Work/Pico_Software/picoTestProject/main/board.h \
+  D:/Lc-Work/Pico_Software/picoTestProject/main/pio_spi.h \
   D:/Lc-Work/Pico_Software/picoTestProject/main/rp2040_clock.h \
   D:/Lc-Work/Pico_Software/picoTestProject/main/usb_descriptors.h \
   D:/Pico/pico-sdk/lib/tinyusb/hw/bsp/ansi_escape.h \
@@ -2628,20 +2742,24 @@ CMakeFiles/picoTestProject.dir/main/main.c.obj: D:/Lc-Work/Pico_Software/picoTes
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pio.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pio.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
   D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
@@ -2649,9 +2767,12 @@ CMakeFiles/picoTestProject.dir/main/main.c.obj: D:/Lc-Work/Pico_Software/picoTes
   D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
   D:/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   D:/Pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
   D:/Pico/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
   D:/Pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
   D:/Pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
   D:/Pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
   D:/Pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
   D:/Pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
@@ -2696,6 +2817,54 @@ CMakeFiles/picoTestProject.dir/main/main.c.obj: D:/Lc-Work/Pico_Software/picoTes
   C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/timespec.h \
   C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/types.h \
   C:/Users/28670/scoop/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  C:/Users/28670/scoop/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  C:/Users/28670/scoop/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  C:/Users/28670/scoop/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
+
+CMakeFiles/picoTestProject.dir/main/pio_spi.c.obj: D:/Lc-Work/Pico_Software/picoTestProject/main/pio_spi.c \
+  D:/Pico/pico-sdk/src/boards/include/boards/pico.h \
+  D:/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  spi_slave.pio.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  D:/Lc-Work/Pico_Software/picoTestProject/main/pio_spi.h \
+  D:/Pico/pico-sdk/src/common/pico_base/include/pico.h \
+  D:/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  D:/Pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  D:/Pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  D:/Pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pio.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pio.h \
+  D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
+  D:/Pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
+  D:/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/assert.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/newlib.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/config.h \
+  C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/features.h \
   C:/Users/28670/scoop/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   C:/Users/28670/scoop/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   C:/Users/28670/scoop/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
@@ -2940,6 +3109,8 @@ D:/Pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
 
 D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h:
 
+D:/Pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h:
+
 D:/Pico/pico-sdk/lib/tinyusb/src/tusb.h:
 
 D:/Pico/pico-sdk/src/common/pico_base/include/pico.h:
@@ -3083,6 +3254,8 @@ C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/sched.h:
 C:/Users/28670/scoop/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
 
 C:/Users/28670/scoop/10\ 2021.10/arm-none-eabi/include/sys/select.h:
+
+D:/Lc-Work/Pico_Software/picoTestProject/main/pio_spi.c:
 
 D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h:
 
@@ -3230,6 +3403,14 @@ D:/Pico/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h:
 
 D:/Pico/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
 
+D:/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c:
+
+D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h:
+
+D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h:
+
+D:/Pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h:
+
 D:/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c:
 
 D:/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c:
@@ -3254,6 +3435,14 @@ D:/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c:
 
 D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
 
+D:/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c:
+
+D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pio.h:
+
+D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pio.h:
+
+D:/Pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h:
+
 D:/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c:
 
 D:/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c:
@@ -3269,6 +3458,8 @@ D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/mpu.h:
 D:/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c:
 
 D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h:
+
+spi_slave.pio.h:
 
 D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h:
 
@@ -3323,6 +3514,8 @@ D:/Pico/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h:
 D:/Lc-Work/Pico_Software/picoTestProject/main/board.c:
 
 D:/Lc-Work/Pico_Software/picoTestProject/main/board.h:
+
+D:/Lc-Work/Pico_Software/picoTestProject/main/pio_spi.h:
 
 D:/Lc-Work/Pico_Software/picoTestProject/main/main.c:
 

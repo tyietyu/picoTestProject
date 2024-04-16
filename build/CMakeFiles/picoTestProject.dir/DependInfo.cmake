@@ -73,6 +73,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "."
   "D:/Lc-Work/Pico_Software/picoTestProject/main"
   "D:/Pico/pico-sdk/src/common/pico_time/include"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_timer/include"
@@ -99,6 +100,8 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "D:/Pico/pico-sdk/src/rp2_common/hardware_uart/include"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_flash/include"
   "D:/Pico/pico-sdk/src/rp2_common/pico_bootrom/include"
+  "D:/Pico/pico-sdk/src/rp2_common/hardware_pio/include"
+  "D:/Pico/pico-sdk/src/rp2_common/hardware_dma/include"
   "D:/Pico/pico-sdk/src/common/pico_stdlib/include"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_divider/include"
   "D:/Pico/pico-sdk/src/rp2_common/pico_runtime/include"
@@ -154,9 +157,11 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Pico/pico-sdk/src/common/pico_util/queue.c" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj.d"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d"
+  "D:/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d"
+  "D:/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d"
@@ -183,6 +188,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
   "D:/Lc-Work/Pico_Software/picoTestProject/main/board.c" "CMakeFiles/picoTestProject.dir/main/board.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/main/board.c.obj.d"
   "D:/Lc-Work/Pico_Software/picoTestProject/main/main.c" "CMakeFiles/picoTestProject.dir/main/main.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/main/main.c.obj.d"
+  "D:/Lc-Work/Pico_Software/picoTestProject/main/pio_spi.c" "CMakeFiles/picoTestProject.dir/main/pio_spi.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/main/pio_spi.c.obj.d"
   "D:/Lc-Work/Pico_Software/picoTestProject/main/rp2040_clock.c" "CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.obj.d"
   "D:/Lc-Work/Pico_Software/picoTestProject/main/usb_descriptors.c" "CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.obj" "gcc" "CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.obj.d"
   "D:/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"

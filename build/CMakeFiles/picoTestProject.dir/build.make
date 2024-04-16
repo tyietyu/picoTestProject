@@ -96,10 +96,24 @@ CMakeFiles/picoTestProject.dir/main/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/picoTestProject.dir/main/main.c.s"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Lc-Work\Pico_Software\picoTestProject\main\main.c -o CMakeFiles\picoTestProject.dir\main\main.c.s
 
+CMakeFiles/picoTestProject.dir/main/pio_spi.c.obj: CMakeFiles/picoTestProject.dir/flags.make
+CMakeFiles/picoTestProject.dir/main/pio_spi.c.obj: D:/Lc-Work/Pico_Software/picoTestProject/main/pio_spi.c
+CMakeFiles/picoTestProject.dir/main/pio_spi.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/picoTestProject.dir/main/pio_spi.c.obj"
+	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/main/pio_spi.c.obj -MF CMakeFiles\picoTestProject.dir\main\pio_spi.c.obj.d -o CMakeFiles\picoTestProject.dir\main\pio_spi.c.obj -c D:\Lc-Work\Pico_Software\picoTestProject\main\pio_spi.c
+
+CMakeFiles/picoTestProject.dir/main/pio_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/picoTestProject.dir/main/pio_spi.c.i"
+	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Lc-Work\Pico_Software\picoTestProject\main\pio_spi.c > CMakeFiles\picoTestProject.dir\main\pio_spi.c.i
+
+CMakeFiles/picoTestProject.dir/main/pio_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/picoTestProject.dir/main/pio_spi.c.s"
+	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Lc-Work\Pico_Software\picoTestProject\main\pio_spi.c -o CMakeFiles\picoTestProject.dir\main\pio_spi.c.s
+
 CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.obj: D:/Lc-Work/Pico_Software/picoTestProject/main/rp2040_clock.c
 CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.obj -MF CMakeFiles\picoTestProject.dir\main\rp2040_clock.c.obj.d -o CMakeFiles\picoTestProject.dir\main\rp2040_clock.c.obj -c D:\Lc-Work\Pico_Software\picoTestProject\main\rp2040_clock.c
 
 CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.s: cmake_force
 CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.obj: D:/Lc-Work/Pico_Software/picoTestProject/main/usb_descriptors.c
 CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.obj -MF CMakeFiles\picoTestProject.dir\main\usb_descriptors.c.obj.d -o CMakeFiles\picoTestProject.dir\main\usb_descriptors.c.obj -c D:\Lc-Work\Pico_Software\picoTestProject\main\usb_descriptors.c
 
 CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.s: cmake_force
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.obj: D:/Pico/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\common\pico_time\time.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\common\pico_time\time.c.obj -c D:\Pico\pico-sdk\src\common\pico_time\time.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.s: c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: D:/Pico/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj -c D:\Pico\pico-sdk\src\common\pico_time\timeout_helper.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_hel
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: D:/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_timer/ti
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: D:/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -183,7 +197,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_platform/pla
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: D:/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -197,7 +211,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/cl
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: D:/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -211,7 +225,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/syn
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: D:/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -224,7 +238,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: D:/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -238,7 +252,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj: D:/Pico/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\common\pico_sync\sem.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\common\pico_sync\sem.c.obj -c D:\Pico\pico-sdk\src\common\pico_sync\sem.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -252,7 +266,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.s: cm
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: D:/Pico/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\common\pico_sync\lock_core.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\common\pico_sync\lock_core.c.obj -c D:\Pico\pico-sdk\src\common\pico_sync\lock_core.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -266,7 +280,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj: D:/Pico/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\common\pico_sync\mutex.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\common\pico_sync\mutex.c.obj -c D:\Pico\pico-sdk\src\common\pico_sync\mutex.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -280,7 +294,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.s: 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: D:/Pico/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\common\pico_sync\critical_section.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\common\pico_sync\critical_section.c.obj -c D:\Pico\pico-sdk\src\common\pico_sync\critical_section.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -294,7 +308,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_se
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj: D:/Pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\common\pico_util\datetime.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\common\pico_util\datetime.c.obj -c D:\Pico\pico-sdk\src\common\pico_util\datetime.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -308,7 +322,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj: D:/Pico/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\common\pico_util\pheap.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\common\pico_util\pheap.c.obj -c D:\Pico\pico-sdk\src\common\pico_util\pheap.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -322,7 +336,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.s: 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj: D:/Pico/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\common\pico_util\queue.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\common\pico_util\queue.c.obj -c D:\Pico\pico-sdk\src\common\pico_util\queue.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -336,7 +350,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.s: 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: D:/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_spi\spi.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
@@ -350,7 +364,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: D:/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -364,7 +378,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: D:/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -378,7 +392,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpi
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: D:/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -392,7 +406,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: D:/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -406,7 +420,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vre
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: D:/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -420,7 +434,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: D:/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -434,7 +448,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xos
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: D:/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -448,7 +462,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uar
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: D:/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -462,7 +476,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_flash/fl
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: D:/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -473,10 +487,38 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/boot
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s
 
+CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/picoTestProject.dir/flags.make
+CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: D:/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
+CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c
+
+CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
+	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c > CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.i
+
+CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
+	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.s
+
+CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/picoTestProject.dir/flags.make
+CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: D:/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
+CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c
+
+CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
+	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c > CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.i
+
+CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
+	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.s
+
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: D:/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -489,7 +531,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdli
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: D:/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -503,7 +545,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: D:/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -517,7 +559,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runt
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: D:/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -530,7 +572,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_printf/print
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: D:/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -543,7 +585,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: D:/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\pico_divider\divider.S
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
@@ -556,7 +598,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_divider/divi
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: D:/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
@@ -570,7 +612,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/doubl
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: D:/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -584,7 +626,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/doubl
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: D:/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -597,7 +639,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/doubl
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: D:/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
@@ -610,7 +652,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/doubl
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: D:/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -623,7 +665,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pi
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: D:/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
@@ -637,7 +679,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: D:/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -651,7 +693,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: D:/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -664,7 +706,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: D:/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
@@ -678,7 +720,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: D:/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -691,7 +733,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: D:/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -704,7 +746,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: D:/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
@@ -718,7 +760,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_lin
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: D:/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -732,7 +774,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_lin
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: D:/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -746,7 +788,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_lin
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: D:/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -760,7 +802,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: D:/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -774,7 +816,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/s
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: D:/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -788,7 +830,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_unique_id/un
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: D:/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -802,7 +844,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspber
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: D:/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -816,7 +858,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspber
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: D:/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -830,7 +872,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: D:/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -844,7 +886,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_cont
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: D:/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -858,7 +900,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audi
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: D:/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -872,7 +914,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_de
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: D:/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -886,7 +928,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_de
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: D:/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -900,7 +942,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: D:/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -914,7 +956,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_de
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: D:/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -928,7 +970,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: D:/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -942,7 +984,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_de
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: D:/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -956,7 +998,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rn
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: D:/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -970,7 +1012,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_de
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: D:/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -984,7 +1026,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usb
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: D:/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -998,7 +1040,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/ven
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: D:/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -1012,7 +1054,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/video/vide
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: D:/Pico/pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\tusb.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1026,7 +1068,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: D:/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1040,7 +1082,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: D:/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1054,7 +1096,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_u
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj: D:/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\hw\bsp\rp2040\family.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\lib\tinyusb\hw\bsp\rp2040\family.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\hw\bsp\rp2040\family.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i: cmake_force
@@ -1068,7 +1110,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/picoTestProject.dir/flags.make
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: D:/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/picoTestProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
 	C:\Users\28670\scoop\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -MF CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj.d -o CMakeFiles\picoTestProject.dir\D_\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_multicore\multicore.c
 
 CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
@@ -1083,6 +1125,7 @@ CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_multicore/mu
 picoTestProject_OBJECTS = \
 "CMakeFiles/picoTestProject.dir/main/board.c.obj" \
 "CMakeFiles/picoTestProject.dir/main/main.c.obj" \
+"CMakeFiles/picoTestProject.dir/main/pio_spi.c.obj" \
 "CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.obj" \
 "CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.obj" \
 "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.obj" \
@@ -1110,6 +1153,8 @@ picoTestProject_OBJECTS = \
 "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
 "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
 "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
+"CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" \
+"CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" \
 "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
 "CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
@@ -1160,6 +1205,7 @@ picoTestProject_EXTERNAL_OBJECTS =
 
 picoTestProject.elf: CMakeFiles/picoTestProject.dir/main/board.c.obj
 picoTestProject.elf: CMakeFiles/picoTestProject.dir/main/main.c.obj
+picoTestProject.elf: CMakeFiles/picoTestProject.dir/main/pio_spi.c.obj
 picoTestProject.elf: CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.obj
 picoTestProject.elf: CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.obj
 picoTestProject.elf: CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.obj
@@ -1187,6 +1233,8 @@ picoTestProject.elf: CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_com
 picoTestProject.elf: CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 picoTestProject.elf: CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 picoTestProject.elf: CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+picoTestProject.elf: CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+picoTestProject.elf: CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 picoTestProject.elf: CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 picoTestProject.elf: CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 picoTestProject.elf: CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -1235,7 +1283,7 @@ picoTestProject.elf: CMakeFiles/picoTestProject.dir/build.make
 picoTestProject.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 picoTestProject.elf: CMakeFiles/picoTestProject.dir/objects1.rsp
 picoTestProject.elf: CMakeFiles/picoTestProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Linking CXX executable picoTestProject.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Linking CXX executable picoTestProject.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\picoTestProject.dir\link.txt --verbose=$(VERBOSE)
 	"C:\Users\28670\scoop\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Oihex D:/Lc-Work/Pico_Software/picoTestProject/build/picoTestProject.elf picoTestProject.hex
 	"C:\Users\28670\scoop\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Obinary D:/Lc-Work/Pico_Software/picoTestProject/build/picoTestProject.elf picoTestProject.bin

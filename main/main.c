@@ -10,6 +10,7 @@
 #include "rp2040_clock.h"
 #include "usb_descriptors.h"
 #include "pico/multicore.h"
+#include "pio_spi.h"
 
 #define APP_TX_DATA_SIZE 2048
 uint8_t UserTxBufferFS[APP_TX_DATA_SIZE];
@@ -63,9 +64,13 @@ void web_printf(const char *format, ...);
 void usb_printf(const char *format, ...);
 void uart_printf(const char *format, ...);
 void generate_data(void);
+
 /************************************************/
 uint8_t rx_buf[256];
 uint8_t tx_byte = 0x01;
+extern pio_spi_inst_t spi;
+extern bool cs_irq_flag;
+extern int pio_rx_chan;
 /*************************************************/
 int main()
 {
@@ -73,23 +78,29 @@ int main()
     rp2040_clock_133Mhz();
     radar_gpio_init();
     radar_uart_init();
-    radar_spi_init();
+    // radar_spi_init();
 
     // init device stack on configured roothub port
     tud_init(BOARD_TUD_RHPORT);
-    // generate_data();
-    PIO pio = pio0;
-    uint sm = 0;
-    spi_slave_init(pio, sm, SPI_RX_PIN);
+    generate_data();
+    spi_slave_PIO_init(SPI_RX_PIN, SPI_SCK_PIN, 1.0f);
+    PioDMAInit();
+    uart_tx_DMA_init();
 
     while (1)
     {
         tud_task(); // tinyusb device task
         led0_blinking_task();
-        // 接收一个字节
-        uint8_t received_byte = spi_slave_receive_byte(pio, sm);
-        // 将收到的数据输出到控制台
-        uart_printf("Received: 0x%x\n", received_byte);
+        // while (!cs_irq_flag)
+        //     ;
+        // cs_irq_flag = false;
+        // pio_spi_dma_send_blocking(rx_buf, sizeof(rx_buf));
+        pio_spi_read8_blocking(&spi, rx_buf, sizeof(rx_buf));
+        for (int i = 0; i < APPLY_DATA; i++) // LEN
+        {
+            uart_printf("%x ", rx_buf[i]);
+        }
+        uart_printf("\r\n");
     }
 }
 

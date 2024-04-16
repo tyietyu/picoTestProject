@@ -1,19 +1,11 @@
 .program spi_slave
 
-; 0: SCK
-; 1: MOSI
-; 2: MISO
-; 3: CS (片选信号)
+; GPIO0 -> MOSI
+; GPIO1 -> CS
+; GPIO2 -> SCK
 
-; 初始化，等待CS拉低
-init:
-    wait 1 pin 3
-    jmp loop
-
-loop:
-    wait 0 pin 0    ; 等待时钟上升沿 
-    in pins, 1      ; 从MOSI读取一个位到ISR
-    push noblock    ; 将ISR中的数据推送到RX FIFO
-    
-    jmp pin3        ; 跳转到片选信号检测
-    jmp loop        ; 循环继续等待下一个时钟上升沿
+wait_rising:
+wait 1 pin 2      ; Wait for rising clock edge on SCK (pin 2)
+in pins, 1        ; Read MISO (pin 0) into the ISR, data is captured on clock's rising edge
+wait 0 pin 2      ; Wait for the falling edge of SCK to complete the cycle
+jmp wait_rising

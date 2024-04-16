@@ -1,4 +1,5 @@
 D:/Lc-Work/Pico_Software/picoTestProject/build/CMakeFiles/picoTestProject.dir
+D:/Lc-Work/Pico_Software/picoTestProject/build/CMakeFiles/picoTestProject_spi_slave_pio_h.dir
 D:/Lc-Work/Pico_Software/picoTestProject/build/CMakeFiles/edit_cache.dir
 D:/Lc-Work/Pico_Software/picoTestProject/build/CMakeFiles/rebuild_cache.dir
 D:/Lc-Work/Pico_Software/picoTestProject/build/pico-sdk/CMakeFiles/edit_cache.dir

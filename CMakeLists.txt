@@ -33,6 +33,7 @@ target_link_libraries(picoTestProject
                     hardware_irq 
                     hardware_flash
                     hardware_pio
+                    hardware_dma
                     pico_stdlib 
                     pico_unique_id 
                     tinyusb_device 

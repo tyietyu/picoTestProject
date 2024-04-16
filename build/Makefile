@@ -129,6 +129,19 @@ picoTestProject/fast:
 .PHONY : picoTestProject/fast
 
 #=============================================================================
+# Target rules for targets named picoTestProject_spi_slave_pio_h
+
+# Build rule for target.
+picoTestProject_spi_slave_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 picoTestProject_spi_slave_pio_h
+.PHONY : picoTestProject_spi_slave_pio_h
+
+# fast build rule for target.
+picoTestProject_spi_slave_pio_h/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject_spi_slave_pio_h.dir\build.make CMakeFiles/picoTestProject_spi_slave_pio_h.dir/build
+.PHONY : picoTestProject_spi_slave_pio_h/fast
+
+#=============================================================================
 # Target rules for targets named bs2_default
 
 # Build rule for target.
@@ -1129,6 +1142,30 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
+D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj: D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+.PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj
+
+# target to build an object file
+D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+.PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+
+D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.i: D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.i
+
+# target to preprocess a source file
+D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+
+D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.s: D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.s
+
+# target to generate assembly for a file
+D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+
 D_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: D_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj
 
@@ -1208,6 +1245,30 @@ D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: D_/Pico/pico
 D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+
+D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj: D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj
+
+# target to build an object file
+D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+
+D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.i: D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.i
+
+# target to preprocess a source file
+D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+
+D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.s: D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.s
+
+# target to generate assembly for a file
+D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
 D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
@@ -1929,6 +1990,30 @@ main/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/main/main.c.s
 .PHONY : main/main.c.s
 
+main/pio_spi.obj: main/pio_spi.c.obj
+.PHONY : main/pio_spi.obj
+
+# target to build an object file
+main/pio_spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/main/pio_spi.c.obj
+.PHONY : main/pio_spi.c.obj
+
+main/pio_spi.i: main/pio_spi.c.i
+.PHONY : main/pio_spi.i
+
+# target to preprocess a source file
+main/pio_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/main/pio_spi.c.i
+.PHONY : main/pio_spi.c.i
+
+main/pio_spi.s: main/pio_spi.c.s
+.PHONY : main/pio_spi.s
+
+# target to generate assembly for a file
+main/pio_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/main/pio_spi.c.s
+.PHONY : main/pio_spi.c.s
+
 main/rp2040_clock.obj: main/rp2040_clock.c.obj
 .PHONY : main/rp2040_clock.obj
 
@@ -1988,6 +2073,7 @@ help:
 	@echo ... bs2_default_bin
 	@echo ... bs2_default_padded_checksummed_asm
 	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+	@echo ... picoTestProject_spi_slave_pio_h
 	@echo ... bs2_default
 	@echo ... picoTestProject
 	@echo ... tinyusb_dev_audio_4_channel_mic
@@ -2098,6 +2184,9 @@ help:
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.i
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.s
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.i
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.s
@@ -2108,6 +2197,9 @@ help:
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.i
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.s
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.i
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.s
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.i
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.s
@@ -2198,6 +2290,9 @@ help:
 	@echo ... main/main.obj
 	@echo ... main/main.i
 	@echo ... main/main.s
+	@echo ... main/pio_spi.obj
+	@echo ... main/pio_spi.i
+	@echo ... main/pio_spi.s
 	@echo ... main/rp2040_clock.obj
 	@echo ... main/rp2040_clock.i
 	@echo ... main/rp2040_clock.s
