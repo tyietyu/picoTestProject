@@ -14,7 +14,9 @@
     "files.associations": {
         "rp2040_clock.h": "c",
         "time.h": "c",
-        "irq.h": "c"
+        "irq.h": "c",
+        "board.h": "c",
+        "pio_spi.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

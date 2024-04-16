@@ -20,7 +20,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						4
+						4,
+						5
 					]
 				},
 				{
@@ -1073,7 +1074,7 @@
 					"source" : "D:/Pico/pico-sdk/lib/tinyusb/examples/device/audio_4_channel_mic",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -1103,7 +1104,7 @@
 					"source" : "D:/Pico/pico-sdk/lib/tinyusb/examples/device/audio_test",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -1133,7 +1134,7 @@
 					"source" : "D:/Pico/pico-sdk/lib/tinyusb/examples/device/board_test",
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -1163,7 +1164,7 @@
 					"source" : "D:/Pico/pico-sdk/lib/tinyusb/examples/device/cdc_dual_ports",
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -1193,7 +1194,7 @@
 					"source" : "D:/Pico/pico-sdk/lib/tinyusb/examples/device/cdc_msc",
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -1223,7 +1224,7 @@
 					"source" : "D:/Pico/pico-sdk/lib/tinyusb/examples/device/dfu",
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -1253,7 +1254,7 @@
 					"source" : "D:/Pico/pico-sdk/lib/tinyusb/examples/device/dfu_runtime",
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -1283,7 +1284,7 @@
 					"source" : "D:/Pico/pico-sdk/lib/tinyusb/examples/device/dynamic_configuration",
 					"targetIndexes" : 
 					[
-						12
+						13
 					]
 				},
 				{
@@ -1313,7 +1314,7 @@
 					"source" : "D:/Pico/pico-sdk/lib/tinyusb/examples/device/hid_composite",
 					"targetIndexes" : 
 					[
-						13
+						14
 					]
 				},
 				{
@@ -1343,7 +1344,7 @@
 					"source" : "D:/Pico/pico-sdk/lib/tinyusb/examples/device/hid_generic_inout",
 					"targetIndexes" : 
 					[
-						14
+						15
 					]
 				},
 				{
@@ -1373,7 +1374,7 @@
 					"source" : "D:/Pico/pico-sdk/lib/tinyusb/examples/device/hid_multiple_interface",
 					"targetIndexes" : 
 					[
-						15
+						16
 					]
 				},
 				{
@@ -1403,7 +1404,7 @@
 					"source" : "D:/Pico/pico-sdk/lib/tinyusb/examples/device/midi_test",
 					"targetIndexes" : 
 					[
-						16
+						17
 					]
 				},
 				{
@@ -1433,7 +1434,7 @@
 					"source" : "D:/Pico/pico-sdk/lib/tinyusb/examples/device/msc_dual_lun",
 					"targetIndexes" : 
 					[
-						17
+						18
 					]
 				},
 				{
@@ -1474,7 +1475,7 @@
 					"source" : "D:/Pico/pico-sdk/lib/tinyusb/examples/device/uac2_headset",
 					"targetIndexes" : 
 					[
-						18
+						19
 					]
 				},
 				{
@@ -1504,7 +1505,7 @@
 					"source" : "D:/Pico/pico-sdk/lib/tinyusb/examples/device/usbtmc",
 					"targetIndexes" : 
 					[
-						19
+						20
 					]
 				},
 				{
@@ -1534,7 +1535,7 @@
 					"source" : "D:/Pico/pico-sdk/lib/tinyusb/examples/device/video_capture",
 					"targetIndexes" : 
 					[
-						20
+						21
 					]
 				},
 				{
@@ -1564,7 +1565,7 @@
 					"source" : "D:/Pico/pico-sdk/lib/tinyusb/examples/device/webusb_serial",
 					"targetIndexes" : 
 					[
-						21
+						22
 					]
 				},
 				{
@@ -1595,7 +1596,8 @@
 					"name" : "picoTestProject",
 					"targetIndexes" : 
 					[
-						4
+						4,
+						5
 					]
 				},
 				{
@@ -1732,7 +1734,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -1745,7 +1747,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -1758,7 +1760,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -1771,7 +1773,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -1784,7 +1786,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -1797,7 +1799,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -1810,7 +1812,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -1823,7 +1825,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						12
+						13
 					]
 				},
 				{
@@ -1836,7 +1838,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						13
+						14
 					]
 				},
 				{
@@ -1849,7 +1851,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						14
+						15
 					]
 				},
 				{
@@ -1862,7 +1864,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						15
+						16
 					]
 				},
 				{
@@ -1875,7 +1877,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						16
+						17
 					]
 				},
 				{
@@ -1888,7 +1890,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						17
+						18
 					]
 				},
 				{
@@ -1901,7 +1903,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						18
+						19
 					]
 				},
 				{
@@ -1914,7 +1916,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						19
+						20
 					]
 				},
 				{
@@ -1927,7 +1929,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						20
+						21
 					]
 				},
 				{
@@ -1940,7 +1942,7 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						21
+						22
 					]
 				}
 			],
@@ -1977,8 +1979,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "picoTestProject::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-picoTestProject-Debug-de3a6ffa78a45e2e9281.json",
+					"jsonFile" : "target-picoTestProject-Debug-8ac1a45ff2109a53114a.json",
 					"name" : "picoTestProject",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "picoTestProject_spi_slave_pio_h::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-picoTestProject_spi_slave_pio_h-Debug-bfa7d79d7715caa0188c.json",
+					"name" : "picoTestProject_spi_slave_pio_h",
 					"projectIndex" : 0
 				},
 				{

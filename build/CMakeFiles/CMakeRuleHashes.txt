@@ -1,7 +1,9 @@
 # Hashes of file build rules.
+327000937cd573f018d792baa2c9a934 CMakeFiles/picoTestProject_spi_slave_pio_h
 3f5d870c5039478db4cc2b5e5674df8e pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin
 3f5d870c5039478db4cc2b5e5674df8e pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm
 027ebf6ef016f919e9d7f22c7a59da13 pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 042c771b6872287708487e5dd88251ff pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 bb5545e5fff22177ba08c94253c2ef9d pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 159580d1f550f85860c2f81e1ea3ba6d pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
+f754c5cf4e305c1d081bbf227e6cbe1b spi_slave.pio.h
