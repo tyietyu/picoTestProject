@@ -10,7 +10,6 @@
 #include "rp2040_clock.h"
 #include "usb_descriptors.h"
 #include "pico/multicore.h"
-#include "pio_spi.h"
 
 #define APP_TX_DATA_SIZE 2048
 uint8_t UserTxBufferFS[APP_TX_DATA_SIZE];
@@ -64,7 +63,7 @@ void web_printf(const char *format, ...);
 void usb_printf(const char *format, ...);
 void uart_printf(const char *format, ...);
 void generate_data(void);
-
+void cs_irq_handler(uint gpio, uint32_t events);
 /************************************************/
 uint8_t rx_buf[256];
 uint8_t tx_byte = 0x01;
@@ -80,30 +79,25 @@ int main()
     radar_uart_init();
     // radar_spi_init();
 
-    // init device stack on configured roothub port
-    tud_init(BOARD_TUD_RHPORT);
+    tud_init(BOARD_TUD_RHPORT); // init device stack on configured roothub port
+    // gpio_set_irq_enabled_with_callback(SPI_CSN_PIN, GPIO_IRQ_EDGE_FALL, true, &cs_irq_handler);
     generate_data();
-    spi_slave_PIO_init(SPI_RX_PIN, SPI_SCK_PIN, 1.0f);
+    spi_slave_PIO_init(SPI_RX_PIN, SPI_SCK_PIN, SPI_CSN_PIN, 1.0f);
     PioDMAInit();
     uart_tx_DMA_init();
 
     while (1)
     {
         tud_task(); // tinyusb device task
+        uart_dma_send_blocking(rx_buf, sizeof(rx_buf));
+        pio_spi_dma_send_blocking(rx_buf, sizeof(rx_buf));
+
         led0_blinking_task();
         // while (!cs_irq_flag)
         //     ;
         // cs_irq_flag = false;
-        // pio_spi_dma_send_blocking(rx_buf, sizeof(rx_buf));
-        pio_spi_read8_blocking(&spi, rx_buf, sizeof(rx_buf));
-        for (int i = 0; i < APPLY_DATA; i++) // LEN
-        {
-            uart_printf("%x ", rx_buf[i]);
-        }
-        uart_printf("\r\n");
     }
 }
-
 // 写一个函数生成00到FF存储在databuf中,使用静态数组存储
 void generate_data(void)
 {
@@ -111,6 +105,11 @@ void generate_data(void)
     {
         databuf[i] = i;
     }
+}
+
+void cs_irq_handler(uint gpio, uint32_t events) // cs下降沿中断处理函数
+{
+    cs_irq_flag = true;
 }
 
 void led0_blinking_task(void)

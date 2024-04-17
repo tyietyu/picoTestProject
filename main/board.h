@@ -7,7 +7,6 @@
 #include "hardware/pio.h"
 #include "hardware/dma.h"
 #include "spi_slave.pio.h"
-#include "pio_spi.h"
 
 #define TIMER_INDEX 0
 #define TIMER_INTERVAL_MS 20000 // 10s
@@ -28,6 +27,14 @@
 #define SPI_SCK_PIN 2
 #define SPI_TX_PIN 3
 
+typedef struct pio_spi_inst
+{
+    PIO pio;
+    uint sm;
+    uint cs_pin;
+    float clk_div;
+} pio_spi_inst_t;
+
 void radar_gpio_init();
 void radar_uart_init();
 void radar_spi_init();
@@ -46,6 +53,6 @@ void uartDma_send(uint8_t *data, size_t len);           // 使用DMA通道向UAR
 void uart_dma_send_blocking(uint8_t *data, size_t len); // 使用DMA通道向UART发送数据（阻塞，不会因为间隔过短造成数据丢失）
 
 // PIO
-void spi_slave_PIO_init(uint pin_mosi, uint pin_sck, uint clk_div);
+void spi_slave_PIO_init(uint pin_mosi, uint pin_sck,uint pin_cs, uint clk_div);
 void PioDMAInit(void);
 void pio_spi_dma_send_blocking(uint8_t *data, size_t len);

@@ -134,8 +134,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/picoTestProject.dir/main/board.c.obj.d"
   "CMakeFiles/picoTestProject.dir/main/main.c.obj"
   "CMakeFiles/picoTestProject.dir/main/main.c.obj.d"
-  "CMakeFiles/picoTestProject.dir/main/pio_spi.c.obj"
-  "CMakeFiles/picoTestProject.dir/main/pio_spi.c.obj.d"
   "CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.obj"
   "CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.obj.d"
   "CMakeFiles/picoTestProject.dir/main/usb_descriptors.c.obj"

@@ -1990,30 +1990,6 @@ main/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/main/main.c.s
 .PHONY : main/main.c.s
 
-main/pio_spi.obj: main/pio_spi.c.obj
-.PHONY : main/pio_spi.obj
-
-# target to build an object file
-main/pio_spi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/main/pio_spi.c.obj
-.PHONY : main/pio_spi.c.obj
-
-main/pio_spi.i: main/pio_spi.c.i
-.PHONY : main/pio_spi.i
-
-# target to preprocess a source file
-main/pio_spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/main/pio_spi.c.i
-.PHONY : main/pio_spi.c.i
-
-main/pio_spi.s: main/pio_spi.c.s
-.PHONY : main/pio_spi.s
-
-# target to generate assembly for a file
-main/pio_spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/main/pio_spi.c.s
-.PHONY : main/pio_spi.c.s
-
 main/rp2040_clock.obj: main/rp2040_clock.c.obj
 .PHONY : main/rp2040_clock.obj
 
@@ -2290,9 +2266,6 @@ help:
 	@echo ... main/main.obj
 	@echo ... main/main.i
 	@echo ... main/main.s
-	@echo ... main/pio_spi.obj
-	@echo ... main/pio_spi.i
-	@echo ... main/pio_spi.s
 	@echo ... main/rp2040_clock.obj
 	@echo ... main/rp2040_clock.i
 	@echo ... main/rp2040_clock.s

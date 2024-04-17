@@ -84,7 +84,6 @@ CMakeFiles/picoTestProject.dir/main/main.c.obj: \
  D:\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/dma.h \
  D:\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/dma.h \
  D:\Lc-Work\Pico_Software\picoTestProject\build/spi_slave.pio.h \
- D:\Lc-Work\Pico_Software\picoTestProject\main\pio_spi.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/tusb.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/common/tusb_common.h \
  D:\Pico\pico-sdk\lib\tinyusb\src/tusb_option.h \

@@ -1,11 +1,17 @@
 .program spi_slave
 
-; GPIO0 -> MOSI
-; GPIO1 -> CS
-; GPIO2 -> SCK
+; PIN 0 -> RX
+; PIN 1 -> CS
+; PIN 2 -> SCK
+
+.wrap_target
+wait 0 pin 1
 
 wait_rising:
 wait 1 pin 2      ; Wait for rising clock edge on SCK (pin 2)
-in pins, 1        ; Read MISO (pin 0) into the ISR, data is captured on clock's rising edge
+in pins, 1        ; Read RX (pin 0) into the ISR, data is captured on clock's rising edge
+
+wait_falling:
 wait 0 pin 2      ; Wait for the falling edge of SCK to complete the cycle
-jmp wait_rising
+
+.wrap

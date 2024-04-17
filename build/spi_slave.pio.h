@@ -17,10 +17,10 @@
 
 static const uint16_t spi_slave_program_instructions[] = {
             //     .wrap_target
-    0x20a2, //  0: wait   1 pin, 2                   
-    0x4001, //  1: in     pins, 1                    
-    0x2022, //  2: wait   0 pin, 2                   
-    0x0000, //  3: jmp    0                          
+    0x2021, //  0: wait   0 pin, 1                   
+    0x20a2, //  1: wait   1 pin, 2                   
+    0x4001, //  2: in     pins, 1                    
+    0x2022, //  3: wait   0 pin, 2                   
             //     .wrap
 };
 

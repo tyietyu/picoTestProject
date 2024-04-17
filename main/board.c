@@ -51,7 +51,7 @@ void radar_spi_init()
     hw_set_bits(&spi_get_hw(SPI_PORT)->cr0, (2 << SPI_SSPCR0_FRF_LSB));
     /**********************************************************/
     spi_set_slave(SPI_PORT, true);
-    spi_set_format(SPI_PORT, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
+    spi_set_format(SPI_PORT, 8, SPI_CPOL_0, SPI_CPHA_1, SPI_MSB_FIRST);
     gpio_set_function(SPI_RX_PIN, GPIO_FUNC_SPI);
     gpio_set_function(SPI_TX_PIN, GPIO_FUNC_SPI);
     gpio_set_function(SPI_SCK_PIN, GPIO_FUNC_SPI);
@@ -174,7 +174,7 @@ void uart_tx_DMA_init(void)
     dma_tx_chan = dma_claim_unused_channel(true);
     // 配置DMA通道用于UART发送
     uart_tx_dma_config = dma_channel_get_default_config(dma_tx_chan);
-    channel_config_set_transfer_data_size(&uart_tx_dma_config, DMA_SIZE_8);
+    channel_config_set_transfer_data_size(&uart_tx_dma_config, DMA_SIZE_8);  //8位数据
     channel_config_set_read_increment(&uart_tx_dma_config, true);
     channel_config_set_write_increment(&uart_tx_dma_config, false);
     channel_config_set_dreq(&uart_tx_dma_config, uart_get_dreq(UART_ID, true));
@@ -211,15 +211,10 @@ void uart_dma_send_blocking(uint8_t *data, size_t len)
     dma_channel_transfer_from_buffer_now(dma_tx_chan, data, len);
     dma_channel_wait_for_finish_blocking(dma_tx_chan);
 }
-
-void cs_irq_handler() // cs下降沿中断处理函数
-{
-    cs_irq_flag = true;
-}
 /* UART + DMA */
 
 /*PIO 初始化&dma发送*/
-void spi_slave_PIO_init(uint pin_mosi, uint pin_sck, uint clk_div)
+void spi_slave_PIO_init(uint pin_mosi, uint pin_sck,uint pin_cs, uint clk_div)
 {
     // 加载编译好的PIO程序到指定的PIO实例中
     uint offset = pio_add_program(spi.pio, &spi_slave_program);
@@ -228,8 +223,10 @@ void spi_slave_PIO_init(uint pin_mosi, uint pin_sck, uint clk_div)
     // 将GPIO管脚初始化为pio功能
     pio_gpio_init(spi.pio, pin_mosi);
     pio_gpio_init(spi.pio, pin_sck);
+    pio_gpio_init(spi.pio, pin_cs);
     pio_sm_set_consecutive_pindirs(spi.pio, spi.sm, pin_mosi, 1, false);
     pio_sm_set_consecutive_pindirs(spi.pio, spi.sm, pin_sck, 1, false);
+    pio_sm_set_consecutive_pindirs(spi.pio, spi.sm, pin_cs, 1, false);
 
     // 根据实际的引脚配置，初始化PIO状态机
     pio_sm_config c = spi_slave_program_get_default_config(offset);
