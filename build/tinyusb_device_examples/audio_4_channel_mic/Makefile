@@ -129,6 +129,20 @@ tinyusb_dev_audio_4_channel_mic/fast:
 	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/build
 .PHONY : tinyusb_dev_audio_4_channel_mic/fast
 
+# Convenience name for target.
+tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/ELF2UF2Build.dir/rule:
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/ELF2UF2Build.dir/rule
+.PHONY : tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/ELF2UF2Build.dir/rule
+
+# Convenience name for target.
+ELF2UF2Build: tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/ELF2UF2Build.dir/rule
+.PHONY : ELF2UF2Build
+
+# fast build rule for target.
+ELF2UF2Build/fast:
+	cd /d D:\Lc-Work\Pico_Software\picoTestProject\build && $(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\ELF2UF2Build.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/ELF2UF2Build.dir/build
+.PHONY : ELF2UF2Build/fast
+
 D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.obj: D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
 .PHONY : D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.obj
 
@@ -1593,6 +1607,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... ELF2UF2Build
 	@echo ... tinyusb_dev_audio_4_channel_mic
 	@echo ... D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.obj
 	@echo ... D_/Pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.i

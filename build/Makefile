@@ -181,6 +181,19 @@ bs2_default_padded_checksummed_asm/fast:
 .PHONY : bs2_default_padded_checksummed_asm/fast
 
 #=============================================================================
+# Target rules for targets named PioasmBuild
+
+# Build rule for target.
+PioasmBuild: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PioasmBuild
+.PHONY : PioasmBuild
+
+# fast build rule for target.
+PioasmBuild/fast:
+	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/build
+.PHONY : PioasmBuild/fast
+
+#=============================================================================
 # Target rules for targets named cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 
 # Build rule for target.
@@ -205,6 +218,19 @@ tinyusb_dev_audio_4_channel_mic: cmake_check_build_system
 tinyusb_dev_audio_4_channel_mic/fast:
 	$(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\tinyusb_dev_audio_4_channel_mic.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir/build
 .PHONY : tinyusb_dev_audio_4_channel_mic/fast
+
+#=============================================================================
+# Target rules for targets named ELF2UF2Build
+
+# Build rule for target.
+ELF2UF2Build: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ELF2UF2Build
+.PHONY : ELF2UF2Build
+
+# fast build rule for target.
+ELF2UF2Build/fast:
+	$(MAKE) $(MAKESILENT) -f tinyusb_device_examples\audio_4_channel_mic\CMakeFiles\ELF2UF2Build.dir\build.make tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/ELF2UF2Build.dir/build
+.PHONY : ELF2UF2Build/fast
 
 #=============================================================================
 # Target rules for targets named tinyusb_dev_audio_test
@@ -1942,6 +1968,246 @@ D_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/D_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : D_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
+FreeRTOS/IdleMemory.obj: FreeRTOS/IdleMemory.c.obj
+.PHONY : FreeRTOS/IdleMemory.obj
+
+# target to build an object file
+FreeRTOS/IdleMemory.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/IdleMemory.c.obj
+.PHONY : FreeRTOS/IdleMemory.c.obj
+
+FreeRTOS/IdleMemory.i: FreeRTOS/IdleMemory.c.i
+.PHONY : FreeRTOS/IdleMemory.i
+
+# target to preprocess a source file
+FreeRTOS/IdleMemory.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/IdleMemory.c.i
+.PHONY : FreeRTOS/IdleMemory.c.i
+
+FreeRTOS/IdleMemory.s: FreeRTOS/IdleMemory.c.s
+.PHONY : FreeRTOS/IdleMemory.s
+
+# target to generate assembly for a file
+FreeRTOS/IdleMemory.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/IdleMemory.c.s
+.PHONY : FreeRTOS/IdleMemory.c.s
+
+FreeRTOS/croutine.obj: FreeRTOS/croutine.c.obj
+.PHONY : FreeRTOS/croutine.obj
+
+# target to build an object file
+FreeRTOS/croutine.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/croutine.c.obj
+.PHONY : FreeRTOS/croutine.c.obj
+
+FreeRTOS/croutine.i: FreeRTOS/croutine.c.i
+.PHONY : FreeRTOS/croutine.i
+
+# target to preprocess a source file
+FreeRTOS/croutine.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/croutine.c.i
+.PHONY : FreeRTOS/croutine.c.i
+
+FreeRTOS/croutine.s: FreeRTOS/croutine.c.s
+.PHONY : FreeRTOS/croutine.s
+
+# target to generate assembly for a file
+FreeRTOS/croutine.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/croutine.c.s
+.PHONY : FreeRTOS/croutine.c.s
+
+FreeRTOS/event_groups.obj: FreeRTOS/event_groups.c.obj
+.PHONY : FreeRTOS/event_groups.obj
+
+# target to build an object file
+FreeRTOS/event_groups.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/event_groups.c.obj
+.PHONY : FreeRTOS/event_groups.c.obj
+
+FreeRTOS/event_groups.i: FreeRTOS/event_groups.c.i
+.PHONY : FreeRTOS/event_groups.i
+
+# target to preprocess a source file
+FreeRTOS/event_groups.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/event_groups.c.i
+.PHONY : FreeRTOS/event_groups.c.i
+
+FreeRTOS/event_groups.s: FreeRTOS/event_groups.c.s
+.PHONY : FreeRTOS/event_groups.s
+
+# target to generate assembly for a file
+FreeRTOS/event_groups.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/event_groups.c.s
+.PHONY : FreeRTOS/event_groups.c.s
+
+FreeRTOS/heap_4.obj: FreeRTOS/heap_4.c.obj
+.PHONY : FreeRTOS/heap_4.obj
+
+# target to build an object file
+FreeRTOS/heap_4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/heap_4.c.obj
+.PHONY : FreeRTOS/heap_4.c.obj
+
+FreeRTOS/heap_4.i: FreeRTOS/heap_4.c.i
+.PHONY : FreeRTOS/heap_4.i
+
+# target to preprocess a source file
+FreeRTOS/heap_4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/heap_4.c.i
+.PHONY : FreeRTOS/heap_4.c.i
+
+FreeRTOS/heap_4.s: FreeRTOS/heap_4.c.s
+.PHONY : FreeRTOS/heap_4.s
+
+# target to generate assembly for a file
+FreeRTOS/heap_4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/heap_4.c.s
+.PHONY : FreeRTOS/heap_4.c.s
+
+FreeRTOS/list.obj: FreeRTOS/list.c.obj
+.PHONY : FreeRTOS/list.obj
+
+# target to build an object file
+FreeRTOS/list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/list.c.obj
+.PHONY : FreeRTOS/list.c.obj
+
+FreeRTOS/list.i: FreeRTOS/list.c.i
+.PHONY : FreeRTOS/list.i
+
+# target to preprocess a source file
+FreeRTOS/list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/list.c.i
+.PHONY : FreeRTOS/list.c.i
+
+FreeRTOS/list.s: FreeRTOS/list.c.s
+.PHONY : FreeRTOS/list.s
+
+# target to generate assembly for a file
+FreeRTOS/list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/list.c.s
+.PHONY : FreeRTOS/list.c.s
+
+FreeRTOS/port.obj: FreeRTOS/port.c.obj
+.PHONY : FreeRTOS/port.obj
+
+# target to build an object file
+FreeRTOS/port.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/port.c.obj
+.PHONY : FreeRTOS/port.c.obj
+
+FreeRTOS/port.i: FreeRTOS/port.c.i
+.PHONY : FreeRTOS/port.i
+
+# target to preprocess a source file
+FreeRTOS/port.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/port.c.i
+.PHONY : FreeRTOS/port.c.i
+
+FreeRTOS/port.s: FreeRTOS/port.c.s
+.PHONY : FreeRTOS/port.s
+
+# target to generate assembly for a file
+FreeRTOS/port.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/port.c.s
+.PHONY : FreeRTOS/port.c.s
+
+FreeRTOS/queue.obj: FreeRTOS/queue.c.obj
+.PHONY : FreeRTOS/queue.obj
+
+# target to build an object file
+FreeRTOS/queue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/queue.c.obj
+.PHONY : FreeRTOS/queue.c.obj
+
+FreeRTOS/queue.i: FreeRTOS/queue.c.i
+.PHONY : FreeRTOS/queue.i
+
+# target to preprocess a source file
+FreeRTOS/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/queue.c.i
+.PHONY : FreeRTOS/queue.c.i
+
+FreeRTOS/queue.s: FreeRTOS/queue.c.s
+.PHONY : FreeRTOS/queue.s
+
+# target to generate assembly for a file
+FreeRTOS/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/queue.c.s
+.PHONY : FreeRTOS/queue.c.s
+
+FreeRTOS/stream_buffer.obj: FreeRTOS/stream_buffer.c.obj
+.PHONY : FreeRTOS/stream_buffer.obj
+
+# target to build an object file
+FreeRTOS/stream_buffer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/stream_buffer.c.obj
+.PHONY : FreeRTOS/stream_buffer.c.obj
+
+FreeRTOS/stream_buffer.i: FreeRTOS/stream_buffer.c.i
+.PHONY : FreeRTOS/stream_buffer.i
+
+# target to preprocess a source file
+FreeRTOS/stream_buffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/stream_buffer.c.i
+.PHONY : FreeRTOS/stream_buffer.c.i
+
+FreeRTOS/stream_buffer.s: FreeRTOS/stream_buffer.c.s
+.PHONY : FreeRTOS/stream_buffer.s
+
+# target to generate assembly for a file
+FreeRTOS/stream_buffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/stream_buffer.c.s
+.PHONY : FreeRTOS/stream_buffer.c.s
+
+FreeRTOS/tasks.obj: FreeRTOS/tasks.c.obj
+.PHONY : FreeRTOS/tasks.obj
+
+# target to build an object file
+FreeRTOS/tasks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/tasks.c.obj
+.PHONY : FreeRTOS/tasks.c.obj
+
+FreeRTOS/tasks.i: FreeRTOS/tasks.c.i
+.PHONY : FreeRTOS/tasks.i
+
+# target to preprocess a source file
+FreeRTOS/tasks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/tasks.c.i
+.PHONY : FreeRTOS/tasks.c.i
+
+FreeRTOS/tasks.s: FreeRTOS/tasks.c.s
+.PHONY : FreeRTOS/tasks.s
+
+# target to generate assembly for a file
+FreeRTOS/tasks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/tasks.c.s
+.PHONY : FreeRTOS/tasks.c.s
+
+FreeRTOS/timers.obj: FreeRTOS/timers.c.obj
+.PHONY : FreeRTOS/timers.obj
+
+# target to build an object file
+FreeRTOS/timers.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/timers.c.obj
+.PHONY : FreeRTOS/timers.c.obj
+
+FreeRTOS/timers.i: FreeRTOS/timers.c.i
+.PHONY : FreeRTOS/timers.i
+
+# target to preprocess a source file
+FreeRTOS/timers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/timers.c.i
+.PHONY : FreeRTOS/timers.c.i
+
+FreeRTOS/timers.s: FreeRTOS/timers.c.s
+.PHONY : FreeRTOS/timers.s
+
+# target to generate assembly for a file
+FreeRTOS/timers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/FreeRTOS/timers.c.s
+.PHONY : FreeRTOS/timers.c.s
+
 main/board.obj: main/board.c.obj
 .PHONY : main/board.obj
 
@@ -2046,6 +2312,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... ELF2UF2Build
+	@echo ... PioasmBuild
 	@echo ... bs2_default_bin
 	@echo ... bs2_default_padded_checksummed_asm
 	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
@@ -2260,6 +2528,36 @@ help:
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+	@echo ... FreeRTOS/IdleMemory.obj
+	@echo ... FreeRTOS/IdleMemory.i
+	@echo ... FreeRTOS/IdleMemory.s
+	@echo ... FreeRTOS/croutine.obj
+	@echo ... FreeRTOS/croutine.i
+	@echo ... FreeRTOS/croutine.s
+	@echo ... FreeRTOS/event_groups.obj
+	@echo ... FreeRTOS/event_groups.i
+	@echo ... FreeRTOS/event_groups.s
+	@echo ... FreeRTOS/heap_4.obj
+	@echo ... FreeRTOS/heap_4.i
+	@echo ... FreeRTOS/heap_4.s
+	@echo ... FreeRTOS/list.obj
+	@echo ... FreeRTOS/list.i
+	@echo ... FreeRTOS/list.s
+	@echo ... FreeRTOS/port.obj
+	@echo ... FreeRTOS/port.i
+	@echo ... FreeRTOS/port.s
+	@echo ... FreeRTOS/queue.obj
+	@echo ... FreeRTOS/queue.i
+	@echo ... FreeRTOS/queue.s
+	@echo ... FreeRTOS/stream_buffer.obj
+	@echo ... FreeRTOS/stream_buffer.i
+	@echo ... FreeRTOS/stream_buffer.s
+	@echo ... FreeRTOS/tasks.obj
+	@echo ... FreeRTOS/tasks.i
+	@echo ... FreeRTOS/tasks.s
+	@echo ... FreeRTOS/timers.obj
+	@echo ... FreeRTOS/timers.i
+	@echo ... FreeRTOS/timers.s
 	@echo ... main/board.obj
 	@echo ... main/board.i
 	@echo ... main/board.s

@@ -69,7 +69,7 @@ CMakeFiles/picoTestProject_spi_slave_pio_h: spi_slave.pio.h
 
 spi_slave.pio.h: D:/Lc-Work/Pico_Software/picoTestProject/main/spi_slave.pio
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating spi_slave.pio.h"
-	"C:\Program Files\Raspberry Pi\Pico SDK v1.5.1\pico-sdk-tools\pioasm.exe" -o c-sdk D:/Lc-Work/Pico_Software/picoTestProject/main/spi_slave.pio D:/Lc-Work/Pico_Software/picoTestProject/build/spi_slave.pio.h
+	pioasm\pioasm.exe -o c-sdk D:/Lc-Work/Pico_Software/picoTestProject/main/spi_slave.pio D:/Lc-Work/Pico_Software/picoTestProject/build/spi_slave.pio.h
 
 picoTestProject_spi_slave_pio_h: CMakeFiles/picoTestProject_spi_slave_pio_h
 picoTestProject_spi_slave_pio_h: spi_slave.pio.h

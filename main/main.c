@@ -11,6 +11,14 @@
 #include "usb_descriptors.h"
 #include "pico/multicore.h"
 
+#define USE_FREERTOS 1
+
+#if USE_FREERTOS
+#include "FreeRTOS.h"
+#include "task.h"
+
+#endif
+
 #define APP_TX_DATA_SIZE 2048
 uint8_t UserTxBufferFS[APP_TX_DATA_SIZE];
 /* Blink pattern
@@ -64,6 +72,7 @@ void usb_printf(const char *format, ...);
 void uart_printf(const char *format, ...);
 void generate_data(void);
 void cs_irq_handler(uint gpio, uint32_t events);
+void led_task(void *pvParameters);
 /************************************************/
 uint8_t rx_buf[256];
 uint8_t tx_byte = 0x01;
@@ -77,27 +86,38 @@ int main()
     rp2040_clock_133Mhz();
     radar_gpio_init();
     radar_uart_init();
-    // radar_spi_init();
 
     tud_init(BOARD_TUD_RHPORT); // init device stack on configured roothub port
     // gpio_set_irq_enabled_with_callback(SPI_CSN_PIN, GPIO_IRQ_EDGE_FALL, true, &cs_irq_handler);
     generate_data();
-    spi_slave_PIO_init(SPI_RX_PIN, SPI_SCK_PIN, SPI_CSN_PIN, 1.0f);
-    PioDMAInit();
-    uart_tx_DMA_init();
+    uart_printf("LED0 blink task started from RTOS!!\r\n");
+
+    xTaskCreate(led_task, "LED Task", 256, NULL, 1, NULL);
+    vTaskStartScheduler();
+    while (1)
+    {
+
+    }
+}
+
+/** led_task */
+void led_task(void *pvParameters)
+{
+
+    gpio_init(LED0_PIN);
+    gpio_set_dir(LED0_PIN, GPIO_OUT);
 
     while (1)
     {
-        tud_task(); // tinyusb device task
-        uart_dma_send_blocking(rx_buf, sizeof(rx_buf));
-        pio_spi_dma_send_blocking(rx_buf, sizeof(rx_buf));
-
-        led0_blinking_task();
-        // while (!cs_irq_flag)
-        //     ;
-        // cs_irq_flag = false;
+        gpio_put(LED0_PIN, 1);
+        vTaskDelay(100);
+        gpio_put(LED0_PIN, 0);
+        vTaskDelay(500);
     }
 }
+
+
+
 // 写一个函数生成00到FF存储在databuf中,使用静态数组存储
 void generate_data(void)
 {

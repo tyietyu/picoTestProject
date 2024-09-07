@@ -135,6 +135,7 @@ D:/Lc-Work/Pico_Software/picoTestProject/build/pico-sdk/src/rp2_common/pico_asyn
 D:/Lc-Work/Pico_Software/picoTestProject/build/pico-sdk/src/rp2_common/pico_async_context/CMakeFiles/rebuild_cache.dir
 D:/Lc-Work/Pico_Software/picoTestProject/build/pico-sdk/src/rp2_common/pico_btstack/CMakeFiles/edit_cache.dir
 D:/Lc-Work/Pico_Software/picoTestProject/build/pico-sdk/src/rp2_common/pico_btstack/CMakeFiles/rebuild_cache.dir
+D:/Lc-Work/Pico_Software/picoTestProject/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir
 D:/Lc-Work/Pico_Software/picoTestProject/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir
 D:/Lc-Work/Pico_Software/picoTestProject/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/edit_cache.dir
 D:/Lc-Work/Pico_Software/picoTestProject/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/rebuild_cache.dir
@@ -171,6 +172,7 @@ D:/Lc-Work/Pico_Software/picoTestProject/build/tinyusb_device_examples/CMakeFile
 D:/Lc-Work/Pico_Software/picoTestProject/build/tinyusb_device_examples/pico-sdk/CMakeFiles/edit_cache.dir
 D:/Lc-Work/Pico_Software/picoTestProject/build/tinyusb_device_examples/pico-sdk/CMakeFiles/rebuild_cache.dir
 D:/Lc-Work/Pico_Software/picoTestProject/build/tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/tinyusb_dev_audio_4_channel_mic.dir
+D:/Lc-Work/Pico_Software/picoTestProject/build/tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/ELF2UF2Build.dir
 D:/Lc-Work/Pico_Software/picoTestProject/build/tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/edit_cache.dir
 D:/Lc-Work/Pico_Software/picoTestProject/build/tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/rebuild_cache.dir
 D:/Lc-Work/Pico_Software/picoTestProject/build/tinyusb_device_examples/audio_4_channel_mic/pico-sdk/CMakeFiles/edit_cache.dir

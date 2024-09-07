@@ -10,11 +10,17 @@ set(TINYUSB_FAMILY_PROJECT_NAME_PREFIX "tinyusb_dev_")
 add_subdirectory(${PICO_TINYUSB_PATH}/examples/device tinyusb_device_examples)
 
 aux_source_directory(./main SOURCES)
+aux_source_directory(./FreeRTOS SOURCES)
+
 add_executable(picoTestProject ${SOURCES})
+
 #  init pio
 pico_generate_pio_header(picoTestProject ${CMAKE_CURRENT_LIST_DIR}/main/spi_slave.pio)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/main)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/FreeRTOS)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/FreeRTOS/include)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/FreeRTOS/portable)
 
 # pull in common dependencies
 # pico_enable_stdio_usb(Infineon_radar_pico 1)
@@ -23,6 +29,9 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/main)
 # create map/bin/hex file etc.
 pico_add_extra_outputs(picoTestProject)
 
+target_compile_definitions(picoTestProject PRIVATE
+                    PICO_STACK_SIZE=20480 
+                    PICO_CORE1_STACK_SIZE=2048)
 
 # hardware_timer
 target_link_libraries(picoTestProject
