@@ -7,7 +7,7 @@
 #define configCPU_CLOCK_HZ                      133000000
 #define configSYSTICK_CLOCK_HZ                  1000000  
 #define configTICK_RATE_HZ                      1000      
-#define configMAX_PRIORITIES                    4
+#define configMAX_PRIORITIES                    5
 #define configMINIMAL_STACK_SIZE                256     
 #define configMAX_TASK_NAME_LEN                 16
 #define configUSE_16_BIT_TICKS                  0

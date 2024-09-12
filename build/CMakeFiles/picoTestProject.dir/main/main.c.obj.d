@@ -126,12 +126,4 @@ CMakeFiles/picoTestProject.dir/main/main.c.obj: \
  D:\Lc-Work\Pico_Software\picoTestProject\main\usb_descriptors.h \
  D:\Pico\pico-sdk\src\rp2_common\pico_multicore\include/pico/multicore.h \
  D:\Pico\pico-sdk\src\common\pico_sync\include/pico/sync.h \
- D:\Lc-Work\Pico_Software\picoTestProject\FreeRTOS\include/FreeRTOS.h \
- D:\Lc-Work\Pico_Software\picoTestProject\FreeRTOS/FreeRTOSConfig.h \
- D:\Lc-Work\Pico_Software\picoTestProject\FreeRTOS\include/projdefs.h \
- D:\Lc-Work\Pico_Software\picoTestProject\FreeRTOS\include/portable.h \
- D:\Lc-Work\Pico_Software\picoTestProject\FreeRTOS\include/deprecated_definitions.h \
- D:\Lc-Work\Pico_Software\picoTestProject\FreeRTOS\portable/portmacro.h \
- D:\Lc-Work\Pico_Software\picoTestProject\FreeRTOS\include/mpu_wrappers.h \
- D:\Lc-Work\Pico_Software\picoTestProject\FreeRTOS\include/task.h \
- D:\Lc-Work\Pico_Software\picoTestProject\FreeRTOS\include/list.h
+ D:\Lc-Work\Pico_Software\picoTestProject\main\flash.h

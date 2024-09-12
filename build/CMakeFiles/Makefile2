@@ -2660,12 +2660,12 @@ tinyusb_device_examples/midi_test/CMakeFiles/tinyusb_dev_midi_test.dir/all: pico
 tinyusb_device_examples/midi_test/CMakeFiles/tinyusb_dev_midi_test.dir/all: tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f tinyusb_device_examples\midi_test\CMakeFiles\tinyusb_dev_midi_test.dir\build.make tinyusb_device_examples/midi_test/CMakeFiles/tinyusb_dev_midi_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f tinyusb_device_examples\midi_test\CMakeFiles\tinyusb_dev_midi_test.dir\build.make tinyusb_device_examples/midi_test/CMakeFiles/tinyusb_dev_midi_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=68,69,70,71,72 "Built target tinyusb_dev_midi_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=68,69,70,71,72,73 "Built target tinyusb_dev_midi_test"
 .PHONY : tinyusb_device_examples/midi_test/CMakeFiles/tinyusb_dev_midi_test.dir/all
 
 # Build rule for subdir invocation for target.
 tinyusb_device_examples/midi_test/CMakeFiles/tinyusb_dev_midi_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tinyusb_device_examples/midi_test/CMakeFiles/tinyusb_dev_midi_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles 0
 .PHONY : tinyusb_device_examples/midi_test/CMakeFiles/tinyusb_dev_midi_test.dir/rule
@@ -2687,12 +2687,12 @@ tinyusb_device_examples/msc_dual_lun/CMakeFiles/tinyusb_dev_msc_dual_lun.dir/all
 tinyusb_device_examples/msc_dual_lun/CMakeFiles/tinyusb_dev_msc_dual_lun.dir/all: tinyusb_device_examples/audio_4_channel_mic/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f tinyusb_device_examples\msc_dual_lun\CMakeFiles\tinyusb_dev_msc_dual_lun.dir\build.make tinyusb_device_examples/msc_dual_lun/CMakeFiles/tinyusb_dev_msc_dual_lun.dir/depend
 	$(MAKE) $(MAKESILENT) -f tinyusb_device_examples\msc_dual_lun\CMakeFiles\tinyusb_dev_msc_dual_lun.dir\build.make tinyusb_device_examples/msc_dual_lun/CMakeFiles/tinyusb_dev_msc_dual_lun.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=73,74,75,76,77,78 "Built target tinyusb_dev_msc_dual_lun"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles --progress-num=74,75,76,77,78 "Built target tinyusb_dev_msc_dual_lun"
 .PHONY : tinyusb_device_examples/msc_dual_lun/CMakeFiles/tinyusb_dev_msc_dual_lun.dir/all
 
 # Build rule for subdir invocation for target.
 tinyusb_device_examples/msc_dual_lun/CMakeFiles/tinyusb_dev_msc_dual_lun.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tinyusb_device_examples/msc_dual_lun/CMakeFiles/tinyusb_dev_msc_dual_lun.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Lc-Work\Pico_Software\picoTestProject\build\CMakeFiles 0
 .PHONY : tinyusb_device_examples/msc_dual_lun/CMakeFiles/tinyusb_dev_msc_dual_lun.dir/rule

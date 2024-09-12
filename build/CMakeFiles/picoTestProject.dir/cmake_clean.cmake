@@ -152,6 +152,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/picoTestProject.dir/FreeRTOS/timers.c.obj.d"
   "CMakeFiles/picoTestProject.dir/main/board.c.obj"
   "CMakeFiles/picoTestProject.dir/main/board.c.obj.d"
+  "CMakeFiles/picoTestProject.dir/main/flash.c.obj"
+  "CMakeFiles/picoTestProject.dir/main/flash.c.obj.d"
   "CMakeFiles/picoTestProject.dir/main/main.c.obj"
   "CMakeFiles/picoTestProject.dir/main/main.c.obj.d"
   "CMakeFiles/picoTestProject.dir/main/rp2040_clock.c.obj"

@@ -2232,6 +2232,30 @@ main/board.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/main/board.c.s
 .PHONY : main/board.c.s
 
+main/flash.obj: main/flash.c.obj
+.PHONY : main/flash.obj
+
+# target to build an object file
+main/flash.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/main/flash.c.obj
+.PHONY : main/flash.c.obj
+
+main/flash.i: main/flash.c.i
+.PHONY : main/flash.i
+
+# target to preprocess a source file
+main/flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/main/flash.c.i
+.PHONY : main/flash.c.i
+
+main/flash.s: main/flash.c.s
+.PHONY : main/flash.s
+
+# target to generate assembly for a file
+main/flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\picoTestProject.dir\build.make CMakeFiles/picoTestProject.dir/main/flash.c.s
+.PHONY : main/flash.c.s
+
 main/main.obj: main/main.c.obj
 .PHONY : main/main.obj
 
@@ -2561,6 +2585,9 @@ help:
 	@echo ... main/board.obj
 	@echo ... main/board.i
 	@echo ... main/board.s
+	@echo ... main/flash.obj
+	@echo ... main/flash.i
+	@echo ... main/flash.s
 	@echo ... main/main.obj
 	@echo ... main/main.i
 	@echo ... main/main.s
