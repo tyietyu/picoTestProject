@@ -1,5 +1,11 @@
 #include "board.h"
-#include <string.h>
+#include <stdio.h>
+#include <stdarg.h>
+#include "AT.h"
+
+// define for uart
+#define UART_TX_DATA_SIZE 512
+uint8_t UartTxBuffer[UART_TX_DATA_SIZE];
 
 // SPI + DMA
 int dma_spi_rx_chan = 0; // SPI接收DMA通道
@@ -174,7 +180,7 @@ void uart_tx_DMA_init(void)
     dma_tx_chan = dma_claim_unused_channel(true);
     // 配置DMA通道用于UART发送
     uart_tx_dma_config = dma_channel_get_default_config(dma_tx_chan);
-    channel_config_set_transfer_data_size(&uart_tx_dma_config, DMA_SIZE_8);  //8位数据
+    channel_config_set_transfer_data_size(&uart_tx_dma_config, DMA_SIZE_8); // 8位数据
     channel_config_set_read_increment(&uart_tx_dma_config, true);
     channel_config_set_write_increment(&uart_tx_dma_config, false);
     channel_config_set_dreq(&uart_tx_dma_config, uart_get_dreq(UART_ID, true));
@@ -214,7 +220,7 @@ void uart_dma_send_blocking(uint8_t *data, size_t len)
 /* UART + DMA */
 
 /*PIO 初始化&dma发送*/
-void spi_slave_PIO_init(uint pin_mosi, uint pin_sck,uint pin_cs, uint clk_div)
+void spi_slave_PIO_init(uint pin_mosi, uint pin_sck, uint pin_cs, uint clk_div)
 {
     // 加载编译好的PIO程序到指定的PIO实例中
     uint offset = pio_add_program(spi.pio, &spi_slave_program);
@@ -265,4 +271,68 @@ void pio_spi_dma_send_blocking(uint8_t *data, size_t len)
 {
     dma_channel_transfer_to_buffer_now(pio_rx_chan, data, len);
     dma_channel_wait_for_finish_blocking(pio_rx_chan);
+}
+
+void uart_printf(const char *format, ...)
+{
+    va_list args;
+    uint32_t length;
+
+    va_start(args, format);
+    length = vsnprintf((char *)UartTxBuffer, UART_TX_DATA_SIZE, (char *)format, args);
+    va_end(args);
+    uart_write_blocking(UART_ID, UartTxBuffer, length);
+}
+
+static int uart_rx_channel = 0;
+void uart_dma_rx_init(void)
+{
+    uart_rx_channel = dma_claim_unused_channel(true);
+    dma_channel_config config = dma_channel_get_default_config(uart_rx_channel);
+    channel_config_set_transfer_data_size(&config, DMA_SIZE_8);
+    channel_config_set_read_increment(&config, false);
+    channel_config_set_write_increment(&config, true);
+
+    channel_config_set_dreq(&config, uart_get_dreq(UART_ID, false));
+    dma_channel_configure(uart_rx_channel, &config, NULL, &uart_get_hw(UART_ID)->dr, 0, false);
+}
+
+void uart_rx_trans_start(void *buffer, uint32_t length)
+{
+    dma_channel_transfer_to_buffer_now(uart_rx_channel, buffer, length);
+}
+void uart_rx_trans_stop(void)
+{
+    dma_channel_abort(uart_rx_channel);
+}
+
+volatile dma_hw_t *dbg_dma0_uart_rx = dma_hw;
+uint32_t uart_rx_is_transferComplete(void)
+{
+    volatile dma_hw_t *dma0_dbg = dbg_dma0_uart_rx;
+    volatile uint32_t dma_intr = 0;
+    volatile uint32_t s = dma_channel_get_irq0_status(uart_rx_channel);
+    dma_intr = dma0_dbg->intr;
+
+    return ((dma0_dbg->intr & (1 << uart_rx_channel))) == (1 << uart_rx_channel);
+}
+
+uint32_t uart_rx_dma_is_busy(void)
+{
+    return dma_channel_is_busy(uart_rx_channel);
+}
+
+void uart_rx_clear_transferComplete_flag(void)
+{
+    AT_Receive_Flag=1;
+    dma_channel_acknowledge_irq0(uart_rx_channel);
+}
+/**
+ * @brief 获取剩余待传输的长度
+ *
+ * @return uint32_t
+ */
+uint32_t uart_rx_get_remaining_length(void)
+{
+    return dbg_dma0_uart_rx->ch[uart_rx_channel].transfer_count;
 }

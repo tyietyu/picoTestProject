@@ -48,9 +48,17 @@ void spi_DMA_write_blocking(uint8_t *tx_data, size_t len);
 void dma_irq_handler(); // SPI_DMA 中断处理函数
 
 // UART + DMA
+void uart_printf(const char *format, ...);
 void uart_tx_DMA_init(void);                            // UART发送DMA通道初始化
 void uartDma_send(uint8_t *data, size_t len);           // 使用DMA通道向UART发送数据
 void uart_dma_send_blocking(uint8_t *data, size_t len); // 使用DMA通道向UART发送数据（阻塞，不会因为间隔过短造成数据丢失）
+uint32_t uart_rx_get_remaining_length(void);
+void uart_rx_clear_transferComplete_flag(void);
+uint32_t uart_rx_dma_is_busy(void);
+uint32_t uart_rx_is_transferComplete(void);
+void uart_rx_trans_stop(void);
+void uart_rx_trans_start(void *buffer, uint32_t length);
+void uart_dma_rx_init(void);
 
 // PIO
 void spi_slave_PIO_init(uint pin_mosi, uint pin_sck,uint pin_cs, uint clk_div);

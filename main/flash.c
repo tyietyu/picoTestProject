@@ -306,3 +306,9 @@ uint8_t backupFlashData(uint32_t flash_offs)
     return state; // Return result code
 }
 /* ***** 专用函数 ***** */
+// void flash_test()
+// {
+//     flashErase(FLASH_PROGRAM_ADDRESS, FLASH_PAGE_SIZE);
+//     flashProgram(FLASH_PROGRAM_ADDRESS, databuf, sizeof(databuf));
+//     getFlashData(FLASH_PROGRAM_ADDRESS, Flash_Buf, sizeof(Flash_Buf));
+// }

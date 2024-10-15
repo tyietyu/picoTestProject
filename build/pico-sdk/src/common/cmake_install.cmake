@@ -1,4 +1,4 @@
-# Install script for directory: D:/Pico/pico-sdk/src/common
+# Install script for directory: C:/Users/28670/.pico-sdk/sdk/1.5.1/src/common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -34,22 +34,22 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/28670/scoop/10 2021.10/bin/arm-none-eabi-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/28670/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Lc-Work/Pico_Software/picoTestProject/build/pico-sdk/src/common/boot_picoboot/cmake_install.cmake")
-  include("D:/Lc-Work/Pico_Software/picoTestProject/build/pico-sdk/src/common/boot_uf2/cmake_install.cmake")
-  include("D:/Lc-Work/Pico_Software/picoTestProject/build/pico-sdk/src/common/pico_base/cmake_install.cmake")
-  include("D:/Lc-Work/Pico_Software/picoTestProject/build/pico-sdk/src/common/pico_usb_reset_interface/cmake_install.cmake")
-  include("D:/Lc-Work/Pico_Software/picoTestProject/build/pico-sdk/src/common/pico_bit_ops/cmake_install.cmake")
-  include("D:/Lc-Work/Pico_Software/picoTestProject/build/pico-sdk/src/common/pico_binary_info/cmake_install.cmake")
-  include("D:/Lc-Work/Pico_Software/picoTestProject/build/pico-sdk/src/common/pico_divider/cmake_install.cmake")
-  include("D:/Lc-Work/Pico_Software/picoTestProject/build/pico-sdk/src/common/pico_sync/cmake_install.cmake")
-  include("D:/Lc-Work/Pico_Software/picoTestProject/build/pico-sdk/src/common/pico_time/cmake_install.cmake")
-  include("D:/Lc-Work/Pico_Software/picoTestProject/build/pico-sdk/src/common/pico_util/cmake_install.cmake")
-  include("D:/Lc-Work/Pico_Software/picoTestProject/build/pico-sdk/src/common/pico_stdlib/cmake_install.cmake")
+  include("D:/QianRuShiDoc/STMProject/picoTestProject/build/pico-sdk/src/common/boot_picoboot/cmake_install.cmake")
+  include("D:/QianRuShiDoc/STMProject/picoTestProject/build/pico-sdk/src/common/boot_uf2/cmake_install.cmake")
+  include("D:/QianRuShiDoc/STMProject/picoTestProject/build/pico-sdk/src/common/pico_base/cmake_install.cmake")
+  include("D:/QianRuShiDoc/STMProject/picoTestProject/build/pico-sdk/src/common/pico_usb_reset_interface/cmake_install.cmake")
+  include("D:/QianRuShiDoc/STMProject/picoTestProject/build/pico-sdk/src/common/pico_bit_ops/cmake_install.cmake")
+  include("D:/QianRuShiDoc/STMProject/picoTestProject/build/pico-sdk/src/common/pico_binary_info/cmake_install.cmake")
+  include("D:/QianRuShiDoc/STMProject/picoTestProject/build/pico-sdk/src/common/pico_divider/cmake_install.cmake")
+  include("D:/QianRuShiDoc/STMProject/picoTestProject/build/pico-sdk/src/common/pico_sync/cmake_install.cmake")
+  include("D:/QianRuShiDoc/STMProject/picoTestProject/build/pico-sdk/src/common/pico_time/cmake_install.cmake")
+  include("D:/QianRuShiDoc/STMProject/picoTestProject/build/pico-sdk/src/common/pico_util/cmake_install.cmake")
+  include("D:/QianRuShiDoc/STMProject/picoTestProject/build/pico-sdk/src/common/pico_stdlib/cmake_install.cmake")
 
 endif()
 

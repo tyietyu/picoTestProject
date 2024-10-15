@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 
-#define FLASH_MAGIC_NUM 0x55 // 魔术数
+#define FLASH_MAGIC_NUM 0x77 // 魔术数
 #define FLASH_ALL_SIZE PICO_FLASH_SIZE_BYTES
 #define FLASH_PROGRAM_ADDRESS (1 * 1024 * 1024)                           // 1-1.5M的位置用于存储数据
 #define FLASH_PROGRAM_BACKUP_OFFSET (512 * 1024)                          // 备份数据区相对于数据区的偏移量

@@ -1,3 +1,0 @@
-D:/Lc-Work/Pico_Software/picoTestProject/build/pioasm/CMakeFiles/pioasm.dir
-D:/Lc-Work/Pico_Software/picoTestProject/build/pioasm/CMakeFiles/edit_cache.dir
-D:/Lc-Work/Pico_Software/picoTestProject/build/pioasm/CMakeFiles/rebuild_cache.dir

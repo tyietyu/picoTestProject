@@ -10,6 +10,8 @@
 #include "rp2040_clock.h"
 #include "usb_descriptors.h"
 #include "pico/multicore.h"
+
+#include "AT.h"
 #include "flash.h"
 
 // typedef define freeRTOS
@@ -19,8 +21,8 @@
 #include "task.h"
 
 #endif
-// define for USB
-#define APP_TX_DATA_SIZE 2048
+
+#define APP_TX_DATA_SIZE  2048
 uint8_t UserTxBufferFS[APP_TX_DATA_SIZE];
 /* Blink pattern
  * - 250 ms  : device not mounted
@@ -68,36 +70,22 @@ void uart_printf(const char *format, ...);
 
 // gererate_test_data
 #define APPLY_DATA 256
-uint8_t databuf[256]= {0};
-uint8_t Flash_Buf[256]={0}; //flash数据
+uint8_t databuf[256] = {0};
+uint8_t Flash_Buf[256] = {0}; // flash数据
 void generate_data(void);
-void flash_test();
 
 // PIO SPI
 uint8_t rx_buf[256];
-uint8_t tx_byte = 0x01;
 extern pio_spi_inst_t spi;
-extern bool cs_irq_flag;
 extern int pio_rx_chan;
-
-// uart_recvice_data
-#define ENABLE_UART_RX 1
-#define UART_REC_BUFF_SIZE 64
-volatile bool rx_flag = false;
-typedef enum
-{
-    AT_IDLE_STATE = 0x00U,
-    AT_QUERY_THRESHOLD = 0x01U,
-    AT_MODIFY_THRESHOLD = 0x02U,
-} ReceiveMode;
-ReceiveMode receiveMode = AT_IDLE_STATE;
-// void uart_rx_polling(void);
-
+uint8_t AT_Rx_Buf[AT_RX_BUF_SIZE];
 // use freertos
 #if USE_FREERTOS
 void led_task(void *pvParameters);
 void uart_task(void *pvParameters);
 #endif
+
+void core1_entry();
 
 int main()
 {
@@ -107,13 +95,7 @@ int main()
     radar_uart_init();
 
     tud_init(BOARD_TUD_RHPORT); // init device stack on configured roothub port
-    // gpio_set_irq_enabled_with_callback(SPI_CSN_PIN, GPIO_IRQ_EDGE_FALL, true, &cs_irq_handler);
-    generate_data();
-#if ENABLE_UART_RX
-    // irq_set_exclusive_handler(UART0_IRQ, uart_rx_polling);
-    // uart_set_irq_enables(UART_ID, true, false);
-    // irq_set_enabled(UART0_IRQ, true);
-#endif
+    multicore_launch_core1(core1_entry); // 启动核心1
 
 #if USE_FREERTOS
     gpio_init(LED0_PIN);
@@ -123,24 +105,30 @@ int main()
 
     vTaskStartScheduler();
 #endif
-flash_test();
+    uart_dma_rx_init();
+    uart_rx_trans_start(AT_Rx_Buf, AT_RX_BUF_SIZE);
+
+
     while (1)
     {
-        for(int i = 0; i < 256; i++)
-        {
-             uart_printf("%02x ", Flash_Buf[i]);
-        }
-        sleep_ms(1000);
+       led0_blinking_task();
+       if(uart_rx_is_transferComplete())
+       {
+           uart_rx_clear_transferComplete_flag();
+           uart_printf("Receive data: %s\r\n", AT_Rx_Buf);
+       }
+
     }
 }
 
-void flash_test()
+void core1_entry()
 {
-    flashErase(FLASH_PROGRAM_ADDRESS,FLASH_PAGE_SIZE);
-    flashProgram(FLASH_PROGRAM_ADDRESS,databuf, sizeof(databuf));
-    getFlashData(FLASH_PROGRAM_ADDRESS, Flash_Buf, sizeof(Flash_Buf));
-
+    while (1)
+    {
+        led0_blinking_task();
+    }
 }
+
 
 
 #if USE_FREERTOS
@@ -167,51 +155,7 @@ void uart_task(void *pvParameters)
     }
 }
 #endif
-/*
-// uart中断接收函数
-void uart_rx_polling(void)
-{
-    static int i = 0;
-    static int count = 0;
-    static uint8_t RxData;
-    static uint8_t RX_buff[UART_REC_BUFF_SIZE];
-    while (uart_is_readable(UART_ID))
-    {
-        RxData = uart_getc(UART_ID);
-        // 根据当前接收模式进行处理
-        switch (receiveMode)
-        {
-        case AT_IDLE_STATE:
-            if (i< UART_REC_BUFF_SIZE-1) // 判断最开始接收到的数据是不是AT
-            {
-                RX_buff[i++] = RxData;
-                if (i>=2 && RX_buff[i-2] == '\r' && RxData == '\n') 
-                {
-                    RX_buff[i-2] = '\0';
-                    if (strcmp((const char *)RX_buff, "AT") == 0)
-                    {
-                        uart_printf("OK\r\n");
-                        receiveMode = AT_QUERY_THRESHOLD;
-                    }
-                    else
-                    {
-                        uart_printf("ERROR\r\n");
-                    }
-                     i = 0;
-                }
-            }
-            break;
-        case AT_QUERY_THRESHOLD:
 
-            break;
-        case AT_MODIFY_THRESHOLD:
-
-        
-            break;
-
-        }
-    }
-}*/
 // 写一个函数生成00到FF存储在databuf中,使用静态数组存储
 void generate_data(void)
 {
@@ -276,16 +220,7 @@ void usb_printf(const char *format, ...)
     tud_cdc_write(UserTxBufferFS, length);
 }
 
-void uart_printf(const char *format, ...)
-{
-    va_list args;
-    uint32_t length;
 
-    va_start(args, format);
-    length = vsnprintf((char *)UserTxBufferFS, APP_TX_DATA_SIZE, (char *)format, args);
-    va_end(args);
-    uart_write_blocking(UART_ID, UserTxBufferFS, length);
-}
 
 // Invoked when a control transfer occurred on an interface of this class
 // Driver response accordingly to the request and the transfer stage (setup/data/ack)
