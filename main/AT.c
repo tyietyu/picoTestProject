@@ -7,6 +7,7 @@
 extern uint8_t AT_Rx_Buf[AT_RX_BUF_SIZE];
 uint8_t Rx_Idex = 0;
 #define AT_CMD_ADDRESS 0x08004000
+volatile uint8_t AT_Receive_Flag=0;
 
 uint8_t AnalyzeData(void)
 {

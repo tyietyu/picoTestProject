@@ -25,6 +25,7 @@ add_subdirectory(${PICO_TINYUSB_PATH}/examples/device tinyusb_device_examples)
 
 aux_source_directory(./main SOURCES)
 aux_source_directory(./FreeRTOS SOURCES)
+aux_source_directory(./usb_hid SOURCES)
 
 add_executable(picoTestProject ${SOURCES})
 
@@ -35,6 +36,7 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/main)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/FreeRTOS)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/FreeRTOS/include)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/FreeRTOS/portable)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/usb_hid)
 
 # pull in common dependencies
 # pico_enable_stdio_usb(Infineon_radar_pico 1)

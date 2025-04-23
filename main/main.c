@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdarg.h>
+#include <stdint.h>
 
 #include "board.h"
 #include "tusb.h"
@@ -10,10 +11,11 @@
 #include "rp2040_clock.h"
 #include "usb_descriptors.h"
 #include "pico/multicore.h"
+#include "pico/stdlib.h"
 
 #include "AT.h"
 #include "flash.h"
-
+#include "hid.h"
 // typedef define freeRTOS
 #define USE_FREERTOS 0
 #if USE_FREERTOS
@@ -24,20 +26,6 @@
 
 #define APP_TX_DATA_SIZE  2048
 uint8_t UserTxBufferFS[APP_TX_DATA_SIZE];
-/* Blink pattern
- * - 250 ms  : device not mounted
- * - 1000 ms : device mounted
- * - 2500 ms : device is suspended
- */
-enum
-{
-    BLINK_NOT_MOUNTED = 250,
-    BLINK_MOUNTED = 1000,
-    BLINK_SUSPENDED = 2500,
-
-    BLINK_ALWAYS_OFF = UINT32_MAX,
-    BLINK_ALWAYS_ON = 0
-};
 
 static uint32_t led0_blink_interval_ms = BLINK_NOT_MOUNTED;
 static uint32_t led1_blink_interval_ms = BLINK_NOT_MOUNTED;
@@ -84,8 +72,9 @@ uint8_t AT_Rx_Buf[AT_RX_BUF_SIZE];
 void led_task(void *pvParameters);
 void uart_task(void *pvParameters);
 #endif
-
+/*************** Function Declaration ******************/
 void core1_entry();
+/*******************************************************/
 
 int main()
 {
@@ -125,6 +114,7 @@ void core1_entry()
 {
     while (1)
     {
+        tud_task();
         led0_blinking_task();
     }
 }
@@ -195,11 +185,10 @@ void led1_blinking_task(void)
 
 void web_printf(const char *format, ...)
 {
+    uint32_t length;
     if (web_serial_connected)
     {
         va_list args;
-        uint32_t length;
-
         va_start(args, format);
         length = vsnprintf((char *)UserTxBufferFS, APP_TX_DATA_SIZE, (char *)format, args);
         va_end(args);
@@ -217,7 +206,7 @@ void usb_printf(const char *format, ...)
     va_start(args, format);
     length = vsnprintf((char *)UserTxBufferFS, APP_TX_DATA_SIZE, (char *)format, args);
     va_end(args);
-    tud_cdc_write(UserTxBufferFS, length);
+    // tud_cdc_write(UserTxBufferFS, length);
 }
 
 
